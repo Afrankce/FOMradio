@@ -1,0 +1,28 @@
+{
+  "arm": "A",
+  "seed": 43,
+  "checkpoint_sha256": "cdbe56ac612dd7d8188b0c09dc96744dde8887cb63e849d9286041107208f702",
+  "plan_sha256": "340a447165bc3dc421efcfc78b693864c977b2b01fb301a939dce7700d25ab04",
+  "files_sha256": {
+    "evaluate_test_ac.py": "332f0049be13ab1dca11f0e8067819befa0f48314f8cf9abf358f7bc9b6393ba",
+    "metrics_ac.py": "7dc40ad6444f4b120bfe1954ceba10c4ebaf5d3bf46a1aeffe59d100432f7e9a",
+    "dataset.py": "a58c2e3265f8cb6c54b004081d318d7b1a436c7f88edfc78012962bd75b6837c",
+    "train_support.py": "b700aff08ffed894897446ba575b5a15d0df0a7fd4d6ae31be1589337a1b0618",
+    "train_c.py": "c40e04a71d46cf1d9331aa23bbbc49913f755ab3f282356aec53d91e9c29fdbd",
+    "env_operator.py": "a055c7fe5d7a2f4e3c15d005be04766cc53165dbc642d56d76c297663a9b46c4",
+    "beam_matern_source.py": "8b06eb4c6f662d88b47d436c50d2e3c85883c438bb0244d4af4ac7a36edfb41b",
+    "array_physics.py": "6a5b4d1387c50021354803856a520ae71d669bd650ca5b854cff2ef94dec01b3",
+    "vendor_code.tar.gz": "ac70c1bba1892246b3bd1f2d6ef046ca44bddaf3b8a5798c44a5a390634745c8",
+    "test_run_spec.json": "32f8a95531f07929867f163776f1d1e31d4fcf4ed62cbfe1e6177c84fe21fc07",
+    "manifests/seen_config.json": "ad2dea3d149622bc54e55c3006fbfb8d50fdb953879448a2b47cc3996c89f7a1",
+    "manifests/array.json": "f1d0f19518baa0293494a97d530e090a187498643e5128eb23c3fb64bf80d376",
+    "manifests/angle_interpolation.json": "5ddbff781f34a76ed60e991eb4f9e2e70ad86c9928fb5cbb1c99754cfb2f0824",
+    "manifests/angle_extrapolation.json": "b304aee97c151db697e2025dda2f1da44ce916929928543a14eea71f92a4323f",
+    "manifests/joint.json": "c958d2ea4a32e6a8213d18751e7e4bc05d4049bbe6fb7ef05f5b5e611cf169ab"
+  },
+  "torch": "2.5.1+cu121",
+  "numpy": "1.26.4",
+  "cuda": "12.1",
+  "nfe": 8,
+  "draws": 4
+}

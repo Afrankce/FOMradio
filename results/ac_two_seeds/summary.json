@@ -1,0 +1,1328 @@
+{
+  "purpose": "exploratory held-out test",
+  "seeds": [
+    42,
+    43
+  ],
+  "seed_deviation": "User elected two seeds after plan freeze; C seed 44 was stopped. Three-seed decision rule does not apply.",
+  "groups": {
+    "seen_config": {
+      "models": {
+        "A": {
+          "42": {
+            "mae_db": {
+              "mean": 5.873036839604781,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 8.861653933891892,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 31.312888514593595,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.8133759308888144,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 10.292605929341256,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 3.4968058268229164e-07,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 5.837023845843803,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 8.861658889044648,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 31.328378485843302,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.8172015525596426,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 10.40587597964743,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 1.6530354817708336e-06,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        },
+        "C": {
+          "42": {
+            "mae_db": {
+              "mean": 7.5433806413794,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 10.830270345221292,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 29.23333059283874,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.7810554778959912,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 13.09422593404696,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.009499200185139976,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 6.778704646229744,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 7.787989155622261,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 11.049680907976864,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 29.074836236381508,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.7772949266362346,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 13.185075593345754,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.0008726119995117188,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 6.495523237188658,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        }
+      },
+      "by_angle": {
+        "A": {
+          "42": {
+            "-14": 5.842784792764302,
+            "0": 5.862311268826125,
+            "14": 5.914014457223916
+          },
+          "43": {
+            "-14": 5.818416866276162,
+            "0": 5.820829490616301,
+            "14": 5.871825180638948
+          }
+        },
+        "C": {
+          "42": {
+            "-14": 7.614528275526024,
+            "0": 7.250591477272934,
+            "14": 7.7650221713392416
+          },
+          "43": {
+            "-14": 7.899693206965834,
+            "0": 7.511828612296256,
+            "14": 7.952445647604696
+          }
+        }
+      },
+      "mae_paired_bootstrap": {
+        "mean_delta_c_minus_a": 1.8106545557765383,
+        "ci_95": [
+          1.738563470740927,
+          1.8806351088585145
+        ],
+        "one_sided_upper_95": 1.8696854669731742,
+        "per_seed_delta_c_minus_a": {
+          "42": 1.6703438017746184,
+          "43": 1.9509653097784583
+        },
+        "scenes": 160,
+        "repetitions": 10000,
+        "bootstrap_seed": 20261101,
+        "scope": "scene variability only; training-seed uncertainty is not fully captured"
+      }
+    },
+    "array": {
+      "models": {
+        "A": {
+          "42": {
+            "mae_db": {
+              "mean": 11.313741609553926,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 14.09253320302741,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.637045961874207,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.720977065513828,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 13.09830099171512,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 6.67572021484375e-07,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 11.776189905758397,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 14.407433321513263,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.434815993906774,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.7224167752993818,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 13.490712305881038,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 1.71661376953125e-06,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        },
+        "C": {
+          "42": {
+            "mae_db": {
+              "mean": 16.805879602618642,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 20.485208018222018,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 23.33235334736911,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.5500204356724396,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 16.110994302643753,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.009508864084879557,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 28.207687308390938,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 16.631236107699834,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 20.33127541575823,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 23.397388466543724,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.5478487082527387,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 15.244682106446664,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.0009128252665201823,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 25.774183734258013,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        }
+      },
+      "by_angle": {
+        "A": {
+          "42": {
+            "-14": 11.218776609750723,
+            "0": 11.424709035933517,
+            "14": 11.29773918297754
+          },
+          "43": {
+            "-14": 11.739774986631602,
+            "0": 11.860986479710155,
+            "14": 11.727808250933432
+          }
+        },
+        "C": {
+          "42": {
+            "-14": 16.771803666544592,
+            "0": 16.849467920215055,
+            "14": 16.796367221096283
+          },
+          "43": {
+            "-14": 16.640847082621963,
+            "0": 16.658683179086523,
+            "14": 16.594178061391016
+          }
+        }
+      },
+      "mae_paired_bootstrap": {
+        "mean_delta_c_minus_a": 5.173592097503077,
+        "ci_95": [
+          4.939599577139819,
+          5.400378746176216
+        ],
+        "one_sided_upper_95": 5.364244639402899,
+        "per_seed_delta_c_minus_a": {
+          "42": 5.492137993064715,
+          "43": 4.855046201941438
+        },
+        "scenes": 160,
+        "repetitions": 10000,
+        "bootstrap_seed": 20261101,
+        "scope": "scene variability only; training-seed uncertainty is not fully captured"
+      }
+    },
+    "angle_interpolation": {
+      "models": {
+        "A": {
+          "42": {
+            "mae_db": {
+              "mean": 6.622792960224861,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 9.360833097137519,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 30.595771123144196,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.8024900888455939,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 10.901293996300243,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 5.245208740234375e-07,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 6.119708118216816,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 8.975736486861246,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 31.085447238323535,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.8131694984805703,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 10.739314535092458,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 2.09808349609375e-06,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        },
+        "C": {
+          "42": {
+            "mae_db": {
+              "mean": 11.233543833002965,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 14.47675781250349,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.3631715443973,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.6336117383561592,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 14.7034250030104,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.009549856185913086,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 25.939982908964158,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 11.36121252200507,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 14.598512486717004,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.296454984841283,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.6302876079180291,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 14.743475048299956,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.0008891582489013672,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 22.259923326969147,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        }
+      },
+      "by_angle": {
+        "A": {
+          "42": {
+            "-7": 6.615127140344834,
+            "7": 6.630458780104888
+          },
+          "43": {
+            "-7": 6.1089499435926795,
+            "7": 6.130466292840952
+          }
+        },
+        "C": {
+          "42": {
+            "-7": 11.2008253260554,
+            "7": 11.266262339950533
+          },
+          "43": {
+            "-7": 11.344128234960547,
+            "7": 11.37829680904959
+          }
+        }
+      },
+      "mae_paired_bootstrap": {
+        "mean_delta_c_minus_a": 4.92612763828318,
+        "ci_95": [
+          4.644794376547177,
+          5.1995233292861105
+        ],
+        "one_sided_upper_95": 5.1582986950927445,
+        "per_seed_delta_c_minus_a": {
+          "42": 4.610750872778105,
+          "43": 5.241504403788253
+        },
+        "scenes": 160,
+        "repetitions": 10000,
+        "bootstrap_seed": 20261101,
+        "scope": "scene variability only; training-seed uncertainty is not fully captured"
+      }
+    },
+    "angle_extrapolation": {
+      "models": {
+        "A": {
+          "42": {
+            "mae_db": {
+              "mean": 6.615224962548206,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 9.369728962470454,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 30.63072707839812,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.8059758548793148,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 10.96655220423682,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 4.132588704427083e-07,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 6.2263094995944055,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 9.060957603917217,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 31.017763912339785,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.8154015869796478,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 10.879184798888303,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 6.357828776041667e-07,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        },
+        "C": {
+          "42": {
+            "mae_db": {
+              "mean": 11.449799527755676,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 14.7413983507983,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.237634184649956,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.6634118608362882,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 14.992285937957083,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.009460639953613282,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 32.513182620207466,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 11.619078296346917,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 14.910109794373444,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.14191189248536,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.6604071060940839,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 15.074642784315378,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.0008625666300455728,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 28.62571383714676,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        }
+      },
+      "by_angle": {
+        "A": {
+          "42": {
+            "-28": 6.2662984859785675,
+            "-21": 6.726600522870723,
+            "21": 6.8527758787953275
+          },
+          "43": {
+            "-28": 6.1229755021117045,
+            "-21": 6.226005634447432,
+            "21": 6.329947362224079
+          }
+        },
+        "C": {
+          "42": {
+            "-28": 10.34697305218133,
+            "-21": 11.916767679741932,
+            "21": 12.08565785134377
+          },
+          "43": {
+            "-28": 10.67829463694043,
+            "-21": 12.094706410541557,
+            "21": 12.084233841558763
+          }
+        }
+      },
+      "mae_paired_bootstrap": {
+        "mean_delta_c_minus_a": 5.113671680979992,
+        "ci_95": [
+          4.8498573788028425,
+          5.370365065473386
+        ],
+        "one_sided_upper_95": 5.330399552982671,
+        "per_seed_delta_c_minus_a": {
+          "42": 4.834574565207471,
+          "43": 5.392768796752511
+        },
+        "scenes": 160,
+        "repetitions": 10000,
+        "bootstrap_seed": 20261101,
+        "scope": "scene variability only; training-seed uncertainty is not fully captured"
+      }
+    },
+    "joint": {
+      "models": {
+        "A": {
+          "42": {
+            "mae_db": {
+              "mean": 11.102282210634957,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 13.937189243443038,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.74371167560207,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.7211082205487256,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 12.977693418765067,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 4.9591064453125e-07,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 11.55603014042555,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 14.246128837909657,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 26.54375604553844,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.7227930203262704,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 13.399145866997994,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 1.18255615234375e-06,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        },
+        "C": {
+          "42": {
+            "mae_db": {
+              "mean": 16.72653369786972,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 20.486052524901318,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 23.331780638121973,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.5434666972243137,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 16.245884393910735,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.00950643539428711,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 41.82672238588333,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          },
+          "43": {
+            "mae_db": {
+              "mean": 16.544644253585986,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "rmse_db": {
+              "mean": 20.31910714683611,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "psnr_db": {
+              "mean": 23.402298155882246,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "ssim": {
+              "mean": 0.5419498187565254,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "boundary_mae_db": {
+              "mean": 15.400421449552391,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "outside_range_fraction": {
+              "mean": 0.0008715057373046876,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            },
+            "mu_mae_db": {
+              "mean": 38.196474142074585,
+              "missing_images": 0,
+              "missing_scenes": 0,
+              "scenes_used": 160,
+              "infinite_images": 0
+            }
+          }
+        }
+      },
+      "by_angle": {
+        "A": {
+          "42": {
+            "-28": 10.70589646539714,
+            "-21": 10.97961386053645,
+            "-7": 11.34646714107512,
+            "7": 11.385346371993453,
+            "21": 11.094087214172612
+          },
+          "43": {
+            "-28": 11.14402550264309,
+            "-21": 11.5107473596493,
+            "-7": 11.820794189064987,
+            "7": 11.813236521328928,
+            "21": 11.491347129441436
+          }
+        },
+        "C": {
+          "42": {
+            "-28": 16.850193393703734,
+            "-21": 16.688701801865726,
+            "-7": 16.73597365848739,
+            "7": 16.68027084712814,
+            "21": 16.677528788163603
+          },
+          "43": {
+            "-28": 16.697855166883546,
+            "-21": 16.526118306972087,
+            "-7": 16.546673340820742,
+            "7": 16.505721881380435,
+            "21": 16.446852571873126
+          }
+        }
+      },
+      "mae_paired_bootstrap": {
+        "mean_delta_c_minus_a": 5.306432800197601,
+        "ci_95": [
+          5.064749263565662,
+          5.540523833323451
+        ],
+        "one_sided_upper_95": 5.5041463410322375,
+        "per_seed_delta_c_minus_a": {
+          "42": 5.624251487234764,
+          "43": 4.988614113160438
+        },
+        "scenes": 160,
+        "repetitions": 10000,
+        "bootstrap_seed": 20261101,
+        "scope": "scene variability only; training-seed uncertainty is not fully captured"
+      }
+    }
+  },
+  "identities": {
+    "A_42": {
+      "arm": "A",
+      "seed": 42,
+      "checkpoint_sha256": "1d3bd168cef1233577ef03c6932d16a8df5f89a20a8fe0c6c8dbdda59d55df31",
+      "plan_sha256": "340a447165bc3dc421efcfc78b693864c977b2b01fb301a939dce7700d25ab04",
+      "files_sha256": {
+        "evaluate_test_ac.py": "332f0049be13ab1dca11f0e8067819befa0f48314f8cf9abf358f7bc9b6393ba",
+        "metrics_ac.py": "7dc40ad6444f4b120bfe1954ceba10c4ebaf5d3bf46a1aeffe59d100432f7e9a",
+        "dataset.py": "a58c2e3265f8cb6c54b004081d318d7b1a436c7f88edfc78012962bd75b6837c",
+        "train_support.py": "b700aff08ffed894897446ba575b5a15d0df0a7fd4d6ae31be1589337a1b0618",
+        "train_c.py": "c40e04a71d46cf1d9331aa23bbbc49913f755ab3f282356aec53d91e9c29fdbd",
+        "env_operator.py": "a055c7fe5d7a2f4e3c15d005be04766cc53165dbc642d56d76c297663a9b46c4",
+        "beam_matern_source.py": "8b06eb4c6f662d88b47d436c50d2e3c85883c438bb0244d4af4ac7a36edfb41b",
+        "array_physics.py": "6a5b4d1387c50021354803856a520ae71d669bd650ca5b854cff2ef94dec01b3",
+        "vendor_code.tar.gz": "ac70c1bba1892246b3bd1f2d6ef046ca44bddaf3b8a5798c44a5a390634745c8",
+        "test_run_spec.json": "32f8a95531f07929867f163776f1d1e31d4fcf4ed62cbfe1e6177c84fe21fc07",
+        "manifests/seen_config.json": "ad2dea3d149622bc54e55c3006fbfb8d50fdb953879448a2b47cc3996c89f7a1",
+        "manifests/array.json": "f1d0f19518baa0293494a97d530e090a187498643e5128eb23c3fb64bf80d376",
+        "manifests/angle_interpolation.json": "5ddbff781f34a76ed60e991eb4f9e2e70ad86c9928fb5cbb1c99754cfb2f0824",
+        "manifests/angle_extrapolation.json": "b304aee97c151db697e2025dda2f1da44ce916929928543a14eea71f92a4323f",
+        "manifests/joint.json": "c958d2ea4a32e6a8213d18751e7e4bc05d4049bbe6fb7ef05f5b5e611cf169ab"
+      },
+      "torch": "2.5.1+cu121",
+      "numpy": "1.26.4",
+      "cuda": "12.1",
+      "nfe": 8,
+      "draws": 4
+    },
+    "A_43": {
+      "arm": "A",
+      "seed": 43,
+      "checkpoint_sha256": "cdbe56ac612dd7d8188b0c09dc96744dde8887cb63e849d9286041107208f702",
+      "plan_sha256": "340a447165bc3dc421efcfc78b693864c977b2b01fb301a939dce7700d25ab04",
+      "files_sha256": {
+        "evaluate_test_ac.py": "332f0049be13ab1dca11f0e8067819befa0f48314f8cf9abf358f7bc9b6393ba",
+        "metrics_ac.py": "7dc40ad6444f4b120bfe1954ceba10c4ebaf5d3bf46a1aeffe59d100432f7e9a",
+        "dataset.py": "a58c2e3265f8cb6c54b004081d318d7b1a436c7f88edfc78012962bd75b6837c",
+        "train_support.py": "b700aff08ffed894897446ba575b5a15d0df0a7fd4d6ae31be1589337a1b0618",
+        "train_c.py": "c40e04a71d46cf1d9331aa23bbbc49913f755ab3f282356aec53d91e9c29fdbd",
+        "env_operator.py": "a055c7fe5d7a2f4e3c15d005be04766cc53165dbc642d56d76c297663a9b46c4",
+        "beam_matern_source.py": "8b06eb4c6f662d88b47d436c50d2e3c85883c438bb0244d4af4ac7a36edfb41b",
+        "array_physics.py": "6a5b4d1387c50021354803856a520ae71d669bd650ca5b854cff2ef94dec01b3",
+        "vendor_code.tar.gz": "ac70c1bba1892246b3bd1f2d6ef046ca44bddaf3b8a5798c44a5a390634745c8",
+        "test_run_spec.json": "32f8a95531f07929867f163776f1d1e31d4fcf4ed62cbfe1e6177c84fe21fc07",
+        "manifests/seen_config.json": "ad2dea3d149622bc54e55c3006fbfb8d50fdb953879448a2b47cc3996c89f7a1",
+        "manifests/array.json": "f1d0f19518baa0293494a97d530e090a187498643e5128eb23c3fb64bf80d376",
+        "manifests/angle_interpolation.json": "5ddbff781f34a76ed60e991eb4f9e2e70ad86c9928fb5cbb1c99754cfb2f0824",
+        "manifests/angle_extrapolation.json": "b304aee97c151db697e2025dda2f1da44ce916929928543a14eea71f92a4323f",
+        "manifests/joint.json": "c958d2ea4a32e6a8213d18751e7e4bc05d4049bbe6fb7ef05f5b5e611cf169ab"
+      },
+      "torch": "2.5.1+cu121",
+      "numpy": "1.26.4",
+      "cuda": "12.1",
+      "nfe": 8,
+      "draws": 4
+    },
+    "C_42": {
+      "arm": "C",
+      "seed": 42,
+      "checkpoint_sha256": "23fd325414d2b1a8c81a764ed99f10faa9414ad740a43ebb8ed24d803e9e7f41",
+      "plan_sha256": "340a447165bc3dc421efcfc78b693864c977b2b01fb301a939dce7700d25ab04",
+      "files_sha256": {
+        "evaluate_test_ac.py": "332f0049be13ab1dca11f0e8067819befa0f48314f8cf9abf358f7bc9b6393ba",
+        "metrics_ac.py": "7dc40ad6444f4b120bfe1954ceba10c4ebaf5d3bf46a1aeffe59d100432f7e9a",
+        "dataset.py": "a58c2e3265f8cb6c54b004081d318d7b1a436c7f88edfc78012962bd75b6837c",
+        "train_support.py": "b700aff08ffed894897446ba575b5a15d0df0a7fd4d6ae31be1589337a1b0618",
+        "train_c.py": "c40e04a71d46cf1d9331aa23bbbc49913f755ab3f282356aec53d91e9c29fdbd",
+        "env_operator.py": "a055c7fe5d7a2f4e3c15d005be04766cc53165dbc642d56d76c297663a9b46c4",
+        "beam_matern_source.py": "8b06eb4c6f662d88b47d436c50d2e3c85883c438bb0244d4af4ac7a36edfb41b",
+        "array_physics.py": "6a5b4d1387c50021354803856a520ae71d669bd650ca5b854cff2ef94dec01b3",
+        "vendor_code.tar.gz": "ac70c1bba1892246b3bd1f2d6ef046ca44bddaf3b8a5798c44a5a390634745c8",
+        "test_run_spec.json": "32f8a95531f07929867f163776f1d1e31d4fcf4ed62cbfe1e6177c84fe21fc07",
+        "manifests/seen_config.json": "ad2dea3d149622bc54e55c3006fbfb8d50fdb953879448a2b47cc3996c89f7a1",
+        "manifests/array.json": "f1d0f19518baa0293494a97d530e090a187498643e5128eb23c3fb64bf80d376",
+        "manifests/angle_interpolation.json": "5ddbff781f34a76ed60e991eb4f9e2e70ad86c9928fb5cbb1c99754cfb2f0824",
+        "manifests/angle_extrapolation.json": "b304aee97c151db697e2025dda2f1da44ce916929928543a14eea71f92a4323f",
+        "manifests/joint.json": "c958d2ea4a32e6a8213d18751e7e4bc05d4049bbe6fb7ef05f5b5e611cf169ab"
+      },
+      "torch": "2.5.1+cu121",
+      "numpy": "1.26.4",
+      "cuda": "12.1",
+      "nfe": 8,
+      "draws": 4
+    },
+    "C_43": {
+      "arm": "C",
+      "seed": 43,
+      "checkpoint_sha256": "475f24931f25f95635983ec590ba7d99055eeeffe860ac4faa400be5b54b8368",
+      "plan_sha256": "340a447165bc3dc421efcfc78b693864c977b2b01fb301a939dce7700d25ab04",
+      "files_sha256": {
+        "evaluate_test_ac.py": "332f0049be13ab1dca11f0e8067819befa0f48314f8cf9abf358f7bc9b6393ba",
+        "metrics_ac.py": "7dc40ad6444f4b120bfe1954ceba10c4ebaf5d3bf46a1aeffe59d100432f7e9a",
+        "dataset.py": "a58c2e3265f8cb6c54b004081d318d7b1a436c7f88edfc78012962bd75b6837c",
+        "train_support.py": "b700aff08ffed894897446ba575b5a15d0df0a7fd4d6ae31be1589337a1b0618",
+        "train_c.py": "c40e04a71d46cf1d9331aa23bbbc49913f755ab3f282356aec53d91e9c29fdbd",
+        "env_operator.py": "a055c7fe5d7a2f4e3c15d005be04766cc53165dbc642d56d76c297663a9b46c4",
+        "beam_matern_source.py": "8b06eb4c6f662d88b47d436c50d2e3c85883c438bb0244d4af4ac7a36edfb41b",
+        "array_physics.py": "6a5b4d1387c50021354803856a520ae71d669bd650ca5b854cff2ef94dec01b3",
+        "vendor_code.tar.gz": "ac70c1bba1892246b3bd1f2d6ef046ca44bddaf3b8a5798c44a5a390634745c8",
+        "test_run_spec.json": "32f8a95531f07929867f163776f1d1e31d4fcf4ed62cbfe1e6177c84fe21fc07",
+        "manifests/seen_config.json": "ad2dea3d149622bc54e55c3006fbfb8d50fdb953879448a2b47cc3996c89f7a1",
+        "manifests/array.json": "f1d0f19518baa0293494a97d530e090a187498643e5128eb23c3fb64bf80d376",
+        "manifests/angle_interpolation.json": "5ddbff781f34a76ed60e991eb4f9e2e70ad86c9928fb5cbb1c99754cfb2f0824",
+        "manifests/angle_extrapolation.json": "b304aee97c151db697e2025dda2f1da44ce916929928543a14eea71f92a4323f",
+        "manifests/joint.json": "c958d2ea4a32e6a8213d18751e7e4bc05d4049bbe6fb7ef05f5b5e611cf169ab"
+      },
+      "torch": "2.5.1+cu121",
+      "numpy": "1.26.4",
+      "cuda": "12.1",
+      "nfe": 8,
+      "draws": 4
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# CUDA wheels: install torch and torchvision from the cu124 index first.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+monai==1.4.0
+torchcfm==1.0.7
+torchsummary==1.5.1
+matplotlib==3.9.4
+pytest==8.3.5

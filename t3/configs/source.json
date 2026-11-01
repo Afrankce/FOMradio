@@ -1,0 +1,34 @@
+{
+  "base_noise": {
+    "source": "MS",
+    "resolution": 256,
+    "seed": 42,
+    "external_source": true,
+    "internal_noise": false,
+    "mean": 0.0,
+    "marginal_variance": 1.0,
+    "nu": 1.0,
+    "length_pixels": [
+      2.0,
+      8.0,
+      32.0
+    ],
+    "length_convention": "r/lambda_no_sqrt_2nu",
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "embedding_size": 1024,
+    "min_eigenvalue": 0.01268159189661327,
+    "max_eigenvalue": 4574.154495792197,
+    "zero_eigenvalues": 0,
+    "amplitude_sha256": "6a8b0af46e96ad2f31755cba523465c834db9a1b2815f1ca87d5d82e55f8f841",
+    "sampler": "PSD_checked_circulant_embedding_common_real_white_crop",
+    "per_sample_normalization": false
+  },
+  "mean_rule": "fixed_real_y8_0deg_masked_zero",
+  "noise_scale": 1.0,
+  "coordinate": "normalized dB",
+  "conditional": true
+}

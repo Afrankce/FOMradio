@@ -1,0 +1,3842 @@
+[
+  {
+    "query": {
+      "scene": "u442",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u442/u442_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u442_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u442",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u442/u442_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u442_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u442",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u442/u442_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u442_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u753",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u753/u753_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u753_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u753",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u753/u753_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u753_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u753",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u753/u753_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u753_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u97",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u97/u97_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u97_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u97",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u97/u97_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u97_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u97",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u97/u97_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u97_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u195",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u195/u195_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u195_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u195",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u195/u195_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u195_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u195",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u195/u195_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u195_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u417",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u417/u417_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u417_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u417",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u417/u417_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u417_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u417",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u417/u417_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u417_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u586",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u586/u586_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u586_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u586",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u586/u586_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u586_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u586",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u586/u586_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u586_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u249",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u249/u249_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u249_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u249",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u249/u249_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u249_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u249",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u249/u249_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u249_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u485",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u485/u485_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u485_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u485",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u485/u485_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u485_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u485",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u485/u485_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u485_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u136",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u136/u136_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u136_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u136",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u136/u136_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u136_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u136",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u136/u136_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u136_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u600",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u600/u600_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u600_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u600",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u600/u600_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u600_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u600",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u600/u600_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u600_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u220",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u220/u220_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u220_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u220",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u220/u220_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u220_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u220",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u220/u220_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u220_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u612",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u612/u612_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u612_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u612",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u612/u612_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u612_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u612",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u612/u612_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u612_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u286",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u286/u286_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u286_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u286",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u286/u286_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u286_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u286",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u286/u286_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u286_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u244",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u244/u244_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u244_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u244",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u244/u244_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u244_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u244",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u244/u244_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u244_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u527",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u527/u527_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u527_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u527",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u527/u527_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u527_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u527",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u527/u527_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u527_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u582",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u582/u582_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u582_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u582",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u582/u582_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u582_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u582",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u582/u582_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u582_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u339",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u339/u339_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u339_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u339",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u339/u339_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u339_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u339",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u339/u339_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u339_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u697",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u697/u697_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u697_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u697",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u697/u697_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u697_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u697",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u697/u697_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u697_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u70",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u70/u70_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u70_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u70",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u70/u70_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u70_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u70",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u70/u70_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u70_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u698",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u698/u698_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u698_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u698",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u698/u698_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u698_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u698",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u698/u698_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u698_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u61",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u61/u61_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u61_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u61",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u61/u61_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u61_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u61",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u61/u61_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u61_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u73",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u73/u73_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u73_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u73",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u73/u73_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u73_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u73",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u73/u73_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u73_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u8",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u8/u8_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u8_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u8",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u8/u8_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u8_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u8",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u8/u8_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u8_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u769",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u769/u769_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u769_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u769",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u769/u769_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u769_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u769",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u769/u769_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u769_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u236",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u236/u236_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u236_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u236",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u236/u236_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u236_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u236",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u236/u236_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u236_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u568",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u568/u568_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u568_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u568",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u568/u568_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u568_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u568",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u568/u568_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u568_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u22",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u22/u22_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u22_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u22",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u22/u22_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u22_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u22",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u22/u22_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u22_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u347",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u347/u347_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u347_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u347",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u347/u347_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u347_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u347",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u347/u347_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u347_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u685",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u685/u685_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u685_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u685",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u685/u685_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u685_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u685",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u685/u685_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u685_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u231",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u231/u231_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u231_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u231",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u231/u231_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u231_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u231",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u231/u231_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u231_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u254",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u254/u254_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u254_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u254",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u254/u254_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u254_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u254",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u254/u254_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u254_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u124",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u124/u124_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u124_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u124",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u124/u124_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u124_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u124",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u124/u124_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u124_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u463",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u463/u463_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u463_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u463",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u463/u463_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u463_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u463",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u463/u463_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u463_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u530",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u530/u530_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u530_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u530",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u530/u530_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u530_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u530",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u530/u530_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u530_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u449",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u449/u449_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u449_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u449",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u449/u449_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u449_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u449",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u449/u449_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u449_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u630",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u630/u630_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u630_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u630",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u630/u630_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u630_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u630",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u630/u630_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u630_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u673",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u673/u673_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u673_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u673",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u673/u673_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u673_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u673",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u673/u673_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u673_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u320",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u320/u320_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u320_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u320",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u320/u320_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u320_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u320",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u320/u320_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u320_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u206",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u206/u206_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u206_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u206",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u206/u206_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u206_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u206",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u206/u206_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u206_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u628",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u628/u628_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u628_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u628",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u628/u628_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u628_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u628",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u628/u628_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u628_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u692",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u692/u692_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u692_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u692",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u692/u692_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u692_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u692",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u692/u692_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u692_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u434",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u434/u434_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u434_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u434",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u434/u434_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u434_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u434",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u434/u434_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u434_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u541",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u541/u541_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u541_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u541",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u541/u541_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u541_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u541",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u541/u541_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u541_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u682",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u682/u682_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u682_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u682",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u682/u682_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u682_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u682",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u682/u682_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u682_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u170",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u170/u170_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u170_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u170",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u170/u170_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u170_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u170",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u170/u170_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u170_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u563",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u563/u563_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u563_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u563",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u563/u563_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u563_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u563",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u563/u563_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u563_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u487",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u487/u487_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u487_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u487",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u487/u487_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u487_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u487",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u487/u487_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u487_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u132",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u132/u132_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u132_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u132",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u132/u132_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u132_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u132",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u132/u132_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u132_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u129",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u129/u129_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u129_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u129",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u129/u129_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u129_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u129",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u129/u129_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u129_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u546",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u546/u546_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u546_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u546",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u546/u546_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u546_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u546",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u546/u546_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u546_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u71",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u71/u71_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u71_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u71",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u71/u71_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u71_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u71",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u71/u71_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u71_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u498",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u498/u498_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u498_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u498",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u498/u498_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u498_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u498",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u498/u498_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u498_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u88",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u88/u88_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u88_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u88",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u88/u88_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u88_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u88",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u88/u88_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u88_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u743",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u743/u743_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u743_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u743",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u743/u743_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u743_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u743",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u743/u743_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u743_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u691",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u691/u691_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u691_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u691",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u691/u691_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u691_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u691",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u691/u691_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u691_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u247",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u247/u247_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u247_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u247",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u247/u247_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u247_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u247",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u247/u247_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u247_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u60",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u60/u60_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u60_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u60",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u60/u60_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u60_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u60",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u60/u60_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u60_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u246",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u246/u246_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u246_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u246",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u246/u246_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u246_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u246",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u246/u246_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u246_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u315",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u315/u315_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u315_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u315",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u315/u315_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u315_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u315",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u315/u315_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u315_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u372",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u372/u372_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u372_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u372",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u372/u372_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u372_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u372",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u372/u372_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u372_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u646",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u646/u646_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u646_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u646",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u646/u646_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u646_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u646",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u646/u646_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u646_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u20",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u20/u20_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u20_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u20",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u20/u20_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u20_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u20",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u20/u20_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u20_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u501",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u501/u501_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u501_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u501",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u501/u501_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u501_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u501",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u501/u501_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u501_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u332",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u332/u332_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u332_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u332",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u332/u332_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u332_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u332",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u332/u332_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u332_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u614",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u614/u614_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u614_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u614",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u614/u614_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u614_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u614",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u614/u614_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u614_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u1",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u1/u1_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u1_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u1",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u1/u1_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u1_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u1",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u1/u1_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u1_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u544",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u544/u544_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u544_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u544",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u544/u544_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u544_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u544",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u544/u544_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u544_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u553",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u553/u553_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u553_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u553",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u553/u553_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u553_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u553",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u553/u553_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u553_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u166",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u166/u166_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u166_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u166",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u166/u166_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u166_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u166",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u166/u166_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u166_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u383",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u383/u383_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u383_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u383",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u383/u383_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u383_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u383",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u383/u383_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u383_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u714",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u714/u714_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u714_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u714",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u714/u714_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u714_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u714",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u714/u714_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u714_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u775",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u775/u775_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u775_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u775",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u775/u775_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u775_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u775",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u775/u775_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u775_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u712",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u712/u712_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u712_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u712",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u712/u712_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u712_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u712",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u712/u712_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u712_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u637",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u637/u637_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u637_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u637",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u637/u637_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u637_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u637",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u637/u637_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u637_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u306",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u306/u306_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u306_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u306",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u306/u306_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u306_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u306",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u306/u306_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u306_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u109",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u109/u109_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u109_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u109",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u109/u109_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u109_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u109",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u109/u109_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u109_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u520",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u520/u520_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u520_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u520",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u520/u520_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u520_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u520",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u520/u520_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u520_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u183",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u183/u183_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u183_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u183",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u183/u183_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u183_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u183",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u183/u183_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u183_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u513",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u513/u513_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u513_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u513",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u513/u513_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u513_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u513",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u513/u513_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u513_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u677",
+      "array": 8,
+      "angle": -14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u677/u677_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_02_angle_-14.0_matrix.npy",
+      "beam_index": 2,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam02/u677_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u677",
+      "array": 8,
+      "angle": 0,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u677/u677_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_04_angle_0.0_matrix.npy",
+      "beam_index": 4,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam04/u677_labeled_radiomap.npy"
+    }
+  },
+  {
+    "query": {
+      "scene": "u677",
+      "array": 8,
+      "angle": 14,
+      "frequency_hz": 6700000000,
+      "height": "height_maps/u677/u677_height_matrix.npy",
+      "beam": "beam_maps/freq_6.7GHz_64TR_8beams_pattern_tr38901/u0/beam_06_angle_14.0_matrix.npy",
+      "beam_index": 6,
+      "split": "val",
+      "group": "seen"
+    },
+    "supervision": {
+      "target": "radiomaps/freq_6.7GHz_64TR_8beams_pattern_tr38901_beam06/u677_labeled_radiomap.npy"
+    }
+  }
+]

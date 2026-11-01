@@ -1,0 +1,7 @@
+# Install the PyTorch build matching the host CUDA runtime first.
+torch>=2.1
+numpy>=1.24
+matplotlib>=3.7
+monai>=1.2
+torchcfm>=0.0.2
+torchsummary>=1.5.1

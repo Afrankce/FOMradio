@@ -1,0 +1,124 @@
+{
+  "schema": 4,
+  "seed": 42,
+  "arms": [
+    "T3"
+  ],
+  "phase_arms": [],
+  "labels": {
+    "E0": "NoDrop AP backbone",
+    "E1": "Spatial-mean source gate",
+    "E2": "Beam-boundary Fourier residual",
+    "E3": "Geometry-only source gate",
+    "E4": "Parameter-matched local residual",
+    "E5": "No amplitude lift",
+    "P-A": "Extra Beam magnitude gate",
+    "P-AP": "Extra Beam magnitude + relative-phase gate",
+    "T0": "32x32 target FM; no source observation",
+    "T2": "32x32 target FM + real 8x8 observation",
+    "T3": "Same T2 velocity network; source = real Y8 + MS noise"
+  },
+  "world_size": 2,
+  "global_batch": 128,
+  "microbatch": 16,
+  "total_steps": 5000,
+  "milestones": [
+    1000,
+    2500,
+    5000
+  ],
+  "checkpoint_every": 250,
+  "log_every": 25,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "warmup_steps": 500,
+  "precision": "float16_ComplexGradScaler",
+  "gradient_sync": "fixed_order_real_view_fp64_sum",
+  "source": "MS",
+  "source_length_pixels": [
+    2,
+    8,
+    32
+  ],
+  "height_max": 445.0,
+  "resolution": 256,
+  "native_resolution": 128,
+  "native_spacing_m": 10.0,
+  "train_angles": [
+    -14.0,
+    0.0,
+    14.0
+  ],
+  "eval_angles": [
+    -28.0,
+    -21.0,
+    -14.0,
+    -7.0,
+    0.0,
+    7.0,
+    14.0,
+    21.0
+  ],
+  "eval_nfe": 8,
+  "eval_draws": 4,
+  "preview_scenes": 16,
+  "preview_draws": 1,
+  "amplitude_reference_db": -80.0,
+  "amplitude_reference_policy": "fixed_numeric_reference_not_fitted_to_test",
+  "ema": false,
+  "loss": "FM + 0.1*(Haar1+Haar2)/2 after 2x average pooling",
+  "created": 1789624373.4491649,
+  "physical_claim": "Conditional source translation in normalized scalar dB-map coordinates, not RF time",
+  "experiment_kind": "cross_array_transport",
+  "display_arms": [
+    "T2",
+    "T3"
+  ],
+  "parent_run": "/home/ka/CKM/radio-unet/runs/cross_array_t2_20260917T1208JST_v1",
+  "phase_input_only": false,
+  "new_training_arms": [
+    "T3"
+  ],
+  "reference_arms": [
+    "T2"
+  ],
+  "allowed_gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "phase_base": "E0",
+  "source_array": "8x8",
+  "target_array": "32x32",
+  "source_observation_angle": 0.0,
+  "condition_channels": [
+    "Tx",
+    "Height",
+    "Beam32",
+    "Beam8_0deg",
+    "Y8_0deg",
+    "Y8_valid"
+  ],
+  "comparison_pairs": [
+    [
+      "T3",
+      "T2"
+    ]
+  ],
+  "progression_gate": {
+    "unseen_delta_improvement": 0.01,
+    "native_near_improvement": 0.03,
+    "shadow_transition_gradient_improvement": 0.03,
+    "map_guardrail": 1.01,
+    "min_region_scenes": 20
+  },
+  "baseline_arm": "T2",
+  "candidate_arm": "T3",
+  "source_mean_rule": "fixed_real_y8_0deg_masked_zero",
+  "source_noise_scale": 1.0
+}

@@ -1,0 +1,6 @@
+{
+  "step": 5000,
+  "mae_db_macro": 5.040379645427068,
+  "checkpoint_sha256": "1d3bd168cef1233577ef03c6932d16a8df5f89a20a8fe0c6c8dbdda59d55df31",
+  "validation": "runs/A_seed42/validation/step_05000.json"
+}
