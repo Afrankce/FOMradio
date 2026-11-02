@@ -1,0 +1,401 @@
+{
+  "scope": "exploratory summary of previously observed test; individual image/draw units are not independent",
+  "groups": {
+    "seen_config": {
+      "n": 3840,
+      "A_mae": 5.85503,
+      "C_mae": 7.665685,
+      "C_mu_mae": 6.637114,
+      "A_boundary_mae": 10.349241,
+      "C_boundary_mae": 13.139651,
+      "A_ssim": 0.815289,
+      "C_ssim": 0.779175,
+      "C_output_outside": 0.005186,
+      "C_final_better_than_mu_fraction": 0.158333
+    },
+    "array": {
+      "n": 3840,
+      "A_mae": 11.544966,
+      "C_mae": 16.718558,
+      "C_mu_mae": 26.990936,
+      "A_boundary_mae": 13.294507,
+      "C_boundary_mae": 15.677838,
+      "A_ssim": 0.721697,
+      "C_ssim": 0.548935,
+      "C_output_outside": 0.005211,
+      "C_final_better_than_mu_fraction": 0.730729
+    },
+    "angle_interpolation": {
+      "n": 2560,
+      "A_mae": 6.371251,
+      "C_mae": 11.297378,
+      "C_mu_mae": 24.099953,
+      "A_boundary_mae": 10.820304,
+      "C_boundary_mae": 14.72345,
+      "A_ssim": 0.80783,
+      "C_ssim": 0.63195,
+      "C_output_outside": 0.00522,
+      "C_final_better_than_mu_fraction": 1
+    },
+    "angle_extrapolation": {
+      "n": 3840,
+      "A_mae": 6.420767,
+      "C_mae": 11.534439,
+      "C_mu_mae": 30.569448,
+      "A_boundary_mae": 10.922869,
+      "C_boundary_mae": 15.033464,
+      "A_ssim": 0.810689,
+      "C_ssim": 0.661909,
+      "C_output_outside": 0.005162,
+      "C_final_better_than_mu_fraction": 1
+    },
+    "joint": {
+      "n": 6400,
+      "A_mae": 11.329156,
+      "C_mae": 16.635589,
+      "C_mu_mae": 40.011598,
+      "A_boundary_mae": 13.18842,
+      "C_boundary_mae": 15.823153,
+      "A_ssim": 0.721951,
+      "C_ssim": 0.542708,
+      "C_output_outside": 0.005189,
+      "C_final_better_than_mu_fraction": 1
+    }
+  },
+  "by_group_angle": {
+    "seen_config": {
+      "-14": {
+        "n": 1280,
+        "A_mae": 5.830601,
+        "C_mae": 7.757111,
+        "C_mu_mae": 6.568355,
+        "A_boundary_mae": 10.353773,
+        "C_boundary_mae": 13.171866,
+        "A_ssim": 0.816998,
+        "C_ssim": 0.779746,
+        "C_output_outside": 0.005193,
+        "C_final_better_than_mu_fraction": 0.14375
+      },
+      "0": {
+        "n": 1280,
+        "A_mae": 5.84157,
+        "C_mae": 7.38121,
+        "C_mu_mae": 6.705895,
+        "A_boundary_mae": 10.334845,
+        "C_boundary_mae": 13.015732,
+        "A_ssim": 0.814829,
+        "C_ssim": 0.782044,
+        "C_output_outside": 0.005192,
+        "C_final_better_than_mu_fraction": 0.189844
+      },
+      "14": {
+        "n": 1280,
+        "A_mae": 5.89292,
+        "C_mae": 7.858734,
+        "C_mu_mae": 6.637092,
+        "A_boundary_mae": 10.359105,
+        "C_boundary_mae": 13.231354,
+        "A_ssim": 0.81404,
+        "C_ssim": 0.775736,
+        "C_output_outside": 0.005173,
+        "C_final_better_than_mu_fraction": 0.141406
+      }
+    },
+    "array": {
+      "-14": {
+        "n": 1280,
+        "A_mae": 11.479276,
+        "C_mae": 16.706325,
+        "C_mu_mae": 32.257753,
+        "A_boundary_mae": 13.215063,
+        "C_boundary_mae": 15.684346,
+        "A_ssim": 0.724506,
+        "C_ssim": 0.549466,
+        "C_output_outside": 0.00522,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "0": {
+        "n": 1280,
+        "A_mae": 11.642848,
+        "C_mae": 16.754076,
+        "C_mu_mae": 15.767558,
+        "A_boundary_mae": 13.309279,
+        "C_boundary_mae": 15.623692,
+        "A_ssim": 0.71978,
+        "C_ssim": 0.551563,
+        "C_output_outside": 0.005191,
+        "C_final_better_than_mu_fraction": 0.192188
+      },
+      "14": {
+        "n": 1280,
+        "A_mae": 11.512774,
+        "C_mae": 16.695273,
+        "C_mu_mae": 32.947496,
+        "A_boundary_mae": 13.359177,
+        "C_boundary_mae": 15.725477,
+        "A_ssim": 0.720804,
+        "C_ssim": 0.545774,
+        "C_output_outside": 0.005221,
+        "C_final_better_than_mu_fraction": 1
+      }
+    },
+    "angle_interpolation": {
+      "-7": {
+        "n": 1280,
+        "A_mae": 6.362039,
+        "C_mae": 11.272477,
+        "C_mu_mae": 23.881388,
+        "A_boundary_mae": 10.847606,
+        "C_boundary_mae": 14.693652,
+        "A_ssim": 0.808155,
+        "C_ssim": 0.631869,
+        "C_output_outside": 0.005234,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "7": {
+        "n": 1280,
+        "A_mae": 6.380463,
+        "C_mae": 11.32228,
+        "C_mu_mae": 24.318518,
+        "A_boundary_mae": 10.793003,
+        "C_boundary_mae": 14.753248,
+        "A_ssim": 0.807504,
+        "C_ssim": 0.632031,
+        "C_output_outside": 0.005205,
+        "C_final_better_than_mu_fraction": 1
+      }
+    },
+    "angle_extrapolation": {
+      "-28": {
+        "n": 1280,
+        "A_mae": 6.194637,
+        "C_mae": 10.512634,
+        "C_mu_mae": 32.808624,
+        "A_boundary_mae": 10.759755,
+        "C_boundary_mae": 14.615336,
+        "A_ssim": 0.814773,
+        "C_ssim": 0.713064,
+        "C_output_outside": 0.005153,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "-21": {
+        "n": 1280,
+        "A_mae": 6.476303,
+        "C_mae": 12.005737,
+        "C_mu_mae": 29.04265,
+        "A_boundary_mae": 11.027243,
+        "C_boundary_mae": 15.260846,
+        "A_ssim": 0.810419,
+        "C_ssim": 0.636711,
+        "C_output_outside": 0.00518,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "21": {
+        "n": 1280,
+        "A_mae": 6.591362,
+        "C_mae": 12.084946,
+        "C_mu_mae": 29.857071,
+        "A_boundary_mae": 10.981607,
+        "C_boundary_mae": 15.224211,
+        "A_ssim": 0.806874,
+        "C_ssim": 0.635954,
+        "C_output_outside": 0.005152,
+        "C_final_better_than_mu_fraction": 1
+      }
+    },
+    "joint": {
+      "-28": {
+        "n": 1280,
+        "A_mae": 10.924961,
+        "C_mae": 16.774024,
+        "C_mu_mae": 55.963087,
+        "A_boundary_mae": 12.999063,
+        "C_boundary_mae": 16.21346,
+        "A_ssim": 0.724937,
+        "C_ssim": 0.517152,
+        "C_output_outside": 0.005158,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "-21": {
+        "n": 1280,
+        "A_mae": 11.245181,
+        "C_mae": 16.60741,
+        "C_mu_mae": 41.672191,
+        "A_boundary_mae": 13.119214,
+        "C_boundary_mae": 15.907523,
+        "A_ssim": 0.72465,
+        "C_ssim": 0.54175,
+        "C_output_outside": 0.005181,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "-7": {
+        "n": 1280,
+        "A_mae": 11.583631,
+        "C_mae": 16.641323,
+        "C_mu_mae": 29.64328,
+        "A_boundary_mae": 13.284103,
+        "C_boundary_mae": 15.592709,
+        "A_ssim": 0.720251,
+        "C_ssim": 0.558109,
+        "C_output_outside": 0.005227,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "7": {
+        "n": 1280,
+        "A_mae": 11.599291,
+        "C_mae": 16.592996,
+        "C_mu_mae": 30.299214,
+        "A_boundary_mae": 13.261067,
+        "C_boundary_mae": 15.523808,
+        "A_ssim": 0.719451,
+        "C_ssim": 0.557527,
+        "C_output_outside": 0.005186,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "21": {
+        "n": 1280,
+        "A_mae": 11.292717,
+        "C_mae": 16.562191,
+        "C_mu_mae": 42.480219,
+        "A_boundary_mae": 13.278651,
+        "C_boundary_mae": 15.878265,
+        "A_ssim": 0.720464,
+        "C_ssim": 0.539003,
+        "C_output_outside": 0.005193,
+        "C_final_better_than_mu_fraction": 1
+      }
+    }
+  },
+  "by_group_seed": {
+    "seen_config": {
+      "42": {
+        "n": 1920,
+        "A_mae": 5.873037,
+        "C_mae": 7.543381,
+        "C_mu_mae": 6.778705,
+        "A_boundary_mae": 10.292606,
+        "C_boundary_mae": 13.094226,
+        "A_ssim": 0.813376,
+        "C_ssim": 0.781055,
+        "C_output_outside": 0.009499,
+        "C_final_better_than_mu_fraction": 0.2375
+      },
+      "43": {
+        "n": 1920,
+        "A_mae": 5.837024,
+        "C_mae": 7.787989,
+        "C_mu_mae": 6.495523,
+        "A_boundary_mae": 10.405876,
+        "C_boundary_mae": 13.185076,
+        "A_ssim": 0.817202,
+        "C_ssim": 0.777295,
+        "C_output_outside": 0.000873,
+        "C_final_better_than_mu_fraction": 0.079167
+      }
+    },
+    "array": {
+      "42": {
+        "n": 1920,
+        "A_mae": 11.313742,
+        "C_mae": 16.80588,
+        "C_mu_mae": 28.207687,
+        "A_boundary_mae": 13.098301,
+        "C_boundary_mae": 16.110994,
+        "A_ssim": 0.720977,
+        "C_ssim": 0.55002,
+        "C_output_outside": 0.009509,
+        "C_final_better_than_mu_fraction": 0.739062
+      },
+      "43": {
+        "n": 1920,
+        "A_mae": 11.77619,
+        "C_mae": 16.631236,
+        "C_mu_mae": 25.774184,
+        "A_boundary_mae": 13.490712,
+        "C_boundary_mae": 15.244682,
+        "A_ssim": 0.722417,
+        "C_ssim": 0.547849,
+        "C_output_outside": 0.000913,
+        "C_final_better_than_mu_fraction": 0.722396
+      }
+    },
+    "angle_interpolation": {
+      "42": {
+        "n": 1280,
+        "A_mae": 6.622793,
+        "C_mae": 11.233544,
+        "C_mu_mae": 25.939983,
+        "A_boundary_mae": 10.901294,
+        "C_boundary_mae": 14.703425,
+        "A_ssim": 0.80249,
+        "C_ssim": 0.633612,
+        "C_output_outside": 0.00955,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "43": {
+        "n": 1280,
+        "A_mae": 6.119708,
+        "C_mae": 11.361213,
+        "C_mu_mae": 22.259923,
+        "A_boundary_mae": 10.739315,
+        "C_boundary_mae": 14.743475,
+        "A_ssim": 0.813169,
+        "C_ssim": 0.630288,
+        "C_output_outside": 0.000889,
+        "C_final_better_than_mu_fraction": 1
+      }
+    },
+    "angle_extrapolation": {
+      "42": {
+        "n": 1920,
+        "A_mae": 6.615225,
+        "C_mae": 11.4498,
+        "C_mu_mae": 32.513183,
+        "A_boundary_mae": 10.966552,
+        "C_boundary_mae": 14.992286,
+        "A_ssim": 0.805976,
+        "C_ssim": 0.663412,
+        "C_output_outside": 0.009461,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "43": {
+        "n": 1920,
+        "A_mae": 6.226309,
+        "C_mae": 11.619078,
+        "C_mu_mae": 28.625714,
+        "A_boundary_mae": 10.879185,
+        "C_boundary_mae": 15.074643,
+        "A_ssim": 0.815402,
+        "C_ssim": 0.660407,
+        "C_output_outside": 0.000863,
+        "C_final_better_than_mu_fraction": 1
+      }
+    },
+    "joint": {
+      "42": {
+        "n": 3200,
+        "A_mae": 11.102282,
+        "C_mae": 16.726534,
+        "C_mu_mae": 41.826722,
+        "A_boundary_mae": 12.977693,
+        "C_boundary_mae": 16.245884,
+        "A_ssim": 0.721108,
+        "C_ssim": 0.543467,
+        "C_output_outside": 0.009506,
+        "C_final_better_than_mu_fraction": 1
+      },
+      "43": {
+        "n": 3200,
+        "A_mae": 11.55603,
+        "C_mae": 16.544644,
+        "C_mu_mae": 38.196474,
+        "A_boundary_mae": 13.399146,
+        "C_boundary_mae": 15.400421,
+        "A_ssim": 0.722793,
+        "C_ssim": 0.54195,
+        "C_output_outside": 0.000872,
+        "C_final_better_than_mu_fraction": 1
+      }
+    }
+  }
+}
