@@ -1,0 +1,5 @@
+{
+  "training_beam_gradient_p95": 0.02020273543894291,
+  "positive_gradient_count": 196608,
+  "note": "Gradient scale from the three 6.7 GHz 8x8 training beam patterns."
+}

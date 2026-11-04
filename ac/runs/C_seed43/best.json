@@ -1,6 +1,0 @@
-{
-  "step": 4750,
-  "mae_db_macro": 7.037166052063307,
-  "checkpoint_sha256": "475f24931f25f95635983ec590ba7d99055eeeffe860ac4faa400be5b54b8368",
-  "validation": "runs/C_seed43/validation/step_04750.json"
-}

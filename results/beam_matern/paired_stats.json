@@ -1,0 +1,198 @@
+{
+  "scope": "exploratory; uncertainty across scenes conditional on one trained seed and four recorded draws",
+  "seed": 42,
+  "bootstrap_samples": 10000,
+  "bootstrap_rng_seed": 20261103,
+  "groups": {
+    "seen_config": {
+      "beam_fixed-minus-uniform_fixed": {
+        "mae_delta_db": 0.007067263347361574,
+        "scene_bootstrap_95_interval_db": [
+          -0.023251021090993588,
+          0.036332169728872606
+        ],
+        "left_lower_mae_scene_fraction": 0.5125,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-uniform_learned": {
+        "mae_delta_db": -0.03088656350800212,
+        "scene_bootstrap_95_interval_db": [
+          -0.058095718886284745,
+          -0.005219441549593065
+        ],
+        "left_lower_mae_scene_fraction": 0.59375,
+        "num_scenes": 160
+      },
+      "uniform_learned-minus-uniform_fixed": {
+        "mae_delta_db": 0.08949337408359612,
+        "scene_bootstrap_95_interval_db": [
+          0.06849930042449708,
+          0.11139878442728417
+        ],
+        "left_lower_mae_scene_fraction": 0.1875,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-beam_fixed": {
+        "mae_delta_db": 0.05153954722823242,
+        "scene_bootstrap_95_interval_db": [
+          0.028041270249203075,
+          0.0745116128996579
+        ],
+        "left_lower_mae_scene_fraction": 0.2875,
+        "num_scenes": 160
+      }
+    },
+    "array": {
+      "beam_fixed-minus-uniform_fixed": {
+        "mae_delta_db": 0.02223312488833937,
+        "scene_bootstrap_95_interval_db": [
+          -0.009795419495301806,
+          0.05399085317620744
+        ],
+        "left_lower_mae_scene_fraction": 0.46875,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-uniform_learned": {
+        "mae_delta_db": -0.033082996204885896,
+        "scene_bootstrap_95_interval_db": [
+          -0.06694489448505091,
+          0.0006132581114787409
+        ],
+        "left_lower_mae_scene_fraction": 0.5125,
+        "num_scenes": 160
+      },
+      "uniform_learned-minus-uniform_fixed": {
+        "mae_delta_db": 0.12263079925942873,
+        "scene_bootstrap_95_interval_db": [
+          0.09199862592012084,
+          0.15260359785829028
+        ],
+        "left_lower_mae_scene_fraction": 0.20625,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-beam_fixed": {
+        "mae_delta_db": 0.06731467816620346,
+        "scene_bootstrap_95_interval_db": [
+          0.03440366867719783,
+          0.10015392338860346
+        ],
+        "left_lower_mae_scene_fraction": 0.34375,
+        "num_scenes": 160
+      }
+    },
+    "angle_interpolation": {
+      "beam_fixed-minus-uniform_fixed": {
+        "mae_delta_db": 0.0038119680143827773,
+        "scene_bootstrap_95_interval_db": [
+          -0.023569312032400144,
+          0.030461146781155753
+        ],
+        "left_lower_mae_scene_fraction": 0.55,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-uniform_learned": {
+        "mae_delta_db": -0.0014993683451870246,
+        "scene_bootstrap_95_interval_db": [
+          -0.02124213338658105,
+          0.01874799165333306
+        ],
+        "left_lower_mae_scene_fraction": 0.45625,
+        "num_scenes": 160
+      },
+      "uniform_learned-minus-uniform_fixed": {
+        "mae_delta_db": -0.005276642913092103,
+        "scene_bootstrap_95_interval_db": [
+          -0.026278661154998918,
+          0.016361424940883607
+        ],
+        "left_lower_mae_scene_fraction": 0.60625,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-beam_fixed": {
+        "mae_delta_db": -0.0105879792726619,
+        "scene_bootstrap_95_interval_db": [
+          -0.03364340360724906,
+          0.01243313895791577
+        ],
+        "left_lower_mae_scene_fraction": 0.46875,
+        "num_scenes": 160
+      }
+    },
+    "angle_extrapolation": {
+      "beam_fixed-minus-uniform_fixed": {
+        "mae_delta_db": -0.016111978982054697,
+        "scene_bootstrap_95_interval_db": [
+          -0.03838920073792041,
+          0.004576915589732677
+        ],
+        "left_lower_mae_scene_fraction": 0.625,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-uniform_learned": {
+        "mae_delta_db": -0.021769539980979812,
+        "scene_bootstrap_95_interval_db": [
+          -0.041259176360093915,
+          -0.002121501127094454
+        ],
+        "left_lower_mae_scene_fraction": 0.59375,
+        "num_scenes": 160
+      },
+      "uniform_learned-minus-uniform_fixed": {
+        "mae_delta_db": -0.01740833440047252,
+        "scene_bootstrap_95_interval_db": [
+          -0.03701833270356771,
+          0.0020337323608762823
+        ],
+        "left_lower_mae_scene_fraction": 0.64375,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-beam_fixed": {
+        "mae_delta_db": -0.023065895399397632,
+        "scene_bootstrap_95_interval_db": [
+          -0.04217306102246021,
+          -0.0037131877475069
+        ],
+        "left_lower_mae_scene_fraction": 0.5875,
+        "num_scenes": 160
+      }
+    },
+    "joint": {
+      "beam_fixed-minus-uniform_fixed": {
+        "mae_delta_db": 0.017291368471798466,
+        "scene_bootstrap_95_interval_db": [
+          -0.01346791220322186,
+          0.047336702466574614
+        ],
+        "left_lower_mae_scene_fraction": 0.43125,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-uniform_learned": {
+        "mae_delta_db": -0.023137052823061482,
+        "scene_bootstrap_95_interval_db": [
+          -0.05542671898995834,
+          0.00906352123168746
+        ],
+        "left_lower_mae_scene_fraction": 0.4875,
+        "num_scenes": 160
+      },
+      "uniform_learned-minus-uniform_fixed": {
+        "mae_delta_db": 0.10950791278234528,
+        "scene_bootstrap_95_interval_db": [
+          0.07959475597783289,
+          0.13860788171917587
+        ],
+        "left_lower_mae_scene_fraction": 0.25,
+        "num_scenes": 160
+      },
+      "beam_learned-minus-beam_fixed": {
+        "mae_delta_db": 0.06907949148748532,
+        "scene_bootstrap_95_interval_db": [
+          0.039034422838732985,
+          0.09954083711382006
+        ],
+        "left_lower_mae_scene_fraction": 0.325,
+        "num_scenes": 160
+      }
+    }
+  }
+}

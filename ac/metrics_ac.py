@@ -1,4 +1,4 @@
-"""Native-grid, valid-support metrics for exploratory U6G A/C evaluation."""
+"""Native-grid, valid-support metrics for exploratory U6G evaluation."""
 import math
 import numpy as np
 from scipy.ndimage import binary_dilation,binary_erosion,gaussian_filter

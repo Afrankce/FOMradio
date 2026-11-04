@@ -1,0 +1,239 @@
+{
+  "purpose": "exploratory one-seed held-out comparison",
+  "seed": 42,
+  "scene_count": 160,
+  "draws": 4,
+  "nfe": 8,
+  "groups": {
+    "seen_config": {
+      "models": {
+        "A": {
+          "mae_db": 5.873036839604783,
+          "rmse_db": 8.86165393389189,
+          "psnr_db": 31.312888514593602,
+          "ssim": 0.8133759308888143,
+          "boundary_mae_db": 10.292605929341255
+        },
+        "uniform_fixed": {
+          "mae_db": 5.867573813689632,
+          "rmse_db": 8.862894534542116,
+          "psnr_db": 31.31234646046414,
+          "ssim": 0.8139143994497147,
+          "boundary_mae_db": 10.292658244625347
+        },
+        "beam_fixed": {
+          "mae_db": 5.874641077036995,
+          "rmse_db": 8.871557705873055,
+          "psnr_db": 31.31286670306463,
+          "ssim": 0.8135801293194496,
+          "boundary_mae_db": 10.260227661635561
+        },
+        "uniform_learned": {
+          "mae_db": 5.957067187773228,
+          "rmse_db": 8.929745113535137,
+          "psnr_db": 31.231644434588212,
+          "ssim": 0.8095961477544537,
+          "boundary_mae_db": 10.362032585705272
+        },
+        "beam_learned": {
+          "mae_db": 5.926180624265227,
+          "rmse_db": 8.906969733503676,
+          "psnr_db": 31.243981193960753,
+          "ssim": 0.8106998812293217,
+          "boundary_mae_db": 10.344244780726653
+        }
+      },
+      "mae_factorial_contrasts": {
+        "beam_effect_fixed": 0.00706726334736274,
+        "beam_effect_learned": -0.030886563508001785,
+        "scale_effect_uniform": 0.08949337408359614,
+        "scale_effect_beam": 0.05153954722823162,
+        "interaction": -0.037953826855364525
+      }
+    },
+    "array": {
+      "models": {
+        "A": {
+          "mae_db": 11.31374160955392,
+          "rmse_db": 14.092533203027415,
+          "psnr_db": 26.637045961874218,
+          "ssim": 0.7209770655138282,
+          "boundary_mae_db": 13.098300991715124
+        },
+        "uniform_fixed": {
+          "mae_db": 11.282824011305586,
+          "rmse_db": 14.075604039668042,
+          "psnr_db": 26.649106397855274,
+          "ssim": 0.7205056512584955,
+          "boundary_mae_db": 13.073753962254884
+        },
+        "beam_fixed": {
+          "mae_db": 11.305057136193923,
+          "rmse_db": 14.108112453819405,
+          "psnr_db": 26.62808877640718,
+          "ssim": 0.7189341025946624,
+          "boundary_mae_db": 13.136993811803592
+        },
+        "uniform_learned": {
+          "mae_db": 11.405454810565015,
+          "rmse_db": 14.193330680869948,
+          "psnr_db": 26.5746249052765,
+          "ssim": 0.718618099587749,
+          "boundary_mae_db": 13.156669447983305
+        },
+        "beam_learned": {
+          "mae_db": 11.372371814360129,
+          "rmse_db": 14.170665580282584,
+          "psnr_db": 26.58944226796059,
+          "ssim": 0.7192877539588433,
+          "boundary_mae_db": 13.22179916767771
+        }
+      },
+      "mae_factorial_contrasts": {
+        "beam_effect_fixed": 0.02223312488833784,
+        "beam_effect_learned": -0.03308299620488597,
+        "scale_effect_uniform": 0.12263079925942932,
+        "scale_effect_beam": 0.06731467816620551,
+        "interaction": -0.05531612109322381
+      }
+    },
+    "angle_interpolation": {
+      "models": {
+        "A": {
+          "mae_db": 6.622792960224861,
+          "rmse_db": 9.36083309713752,
+          "psnr_db": 30.59577112314422,
+          "ssim": 0.8024900888455943,
+          "boundary_mae_db": 10.901293996300243
+        },
+        "uniform_fixed": {
+          "mae_db": 6.596606349242103,
+          "rmse_db": 9.325399443537535,
+          "psnr_db": 30.641222578033553,
+          "ssim": 0.8023177006751275,
+          "boundary_mae_db": 10.87915083888331
+        },
+        "beam_fixed": {
+          "mae_db": 6.600418317256484,
+          "rmse_db": 9.328859141657965,
+          "psnr_db": 30.648138238626455,
+          "ssim": 0.8026123060243014,
+          "boundary_mae_db": 10.813291347095873
+        },
+        "uniform_learned": {
+          "mae_db": 6.591329706329009,
+          "rmse_db": 9.306250422846587,
+          "psnr_db": 30.66544768419239,
+          "ssim": 0.7996508558912303,
+          "boundary_mae_db": 10.829296081800969
+        },
+        "beam_learned": {
+          "mae_db": 6.589830337983822,
+          "rmse_db": 9.310450362040836,
+          "psnr_db": 30.65104042503948,
+          "ssim": 0.7993776684672529,
+          "boundary_mae_db": 10.821532159426273
+        }
+      },
+      "mae_factorial_contrasts": {
+        "beam_effect_fixed": 0.00381196801438044,
+        "beam_effect_learned": -0.0014993683451862694,
+        "scale_effect_uniform": -0.005276642913094598,
+        "scale_effect_beam": -0.010587979272661308,
+        "interaction": -0.00531133635956671
+      }
+    },
+    "angle_extrapolation": {
+      "models": {
+        "A": {
+          "mae_db": 6.615224962548207,
+          "rmse_db": 9.369728962470443,
+          "psnr_db": 30.63072707839811,
+          "ssim": 0.8059758548793147,
+          "boundary_mae_db": 10.966552204236814
+        },
+        "uniform_fixed": {
+          "mae_db": 6.608828001314199,
+          "rmse_db": 9.362191090592702,
+          "psnr_db": 30.648858052353926,
+          "ssim": 0.8056067661497031,
+          "boundary_mae_db": 10.997856623595691
+        },
+        "beam_fixed": {
+          "mae_db": 6.592716022332146,
+          "rmse_db": 9.345164465261067,
+          "psnr_db": 30.669492179461617,
+          "ssim": 0.8061381341395508,
+          "boundary_mae_db": 10.88336129761631
+        },
+        "uniform_learned": {
+          "mae_db": 6.591419666913727,
+          "rmse_db": 9.33057406335641,
+          "psnr_db": 30.68019859211744,
+          "ssim": 0.8031179913317168,
+          "boundary_mae_db": 10.923468386721984
+        },
+        "beam_learned": {
+          "mae_db": 6.569650126932748,
+          "rmse_db": 9.315311768187648,
+          "psnr_db": 30.69003098443077,
+          "ssim": 0.8027676726189551,
+          "boundary_mae_db": 10.922963802931147
+        }
+      },
+      "mae_factorial_contrasts": {
+        "beam_effect_fixed": -0.016111978982053188,
+        "beam_effect_learned": -0.02176953998097897,
+        "scale_effect_uniform": -0.017408334400472292,
+        "scale_effect_beam": -0.023065895399398073,
+        "interaction": -0.005657560998925781
+      }
+    },
+    "joint": {
+      "models": {
+        "A": {
+          "mae_db": 11.102282210634955,
+          "rmse_db": 13.937189243443044,
+          "psnr_db": 26.74371167560205,
+          "ssim": 0.7211082205487257,
+          "boundary_mae_db": 12.977693418765066
+        },
+        "uniform_fixed": {
+          "mae_db": 11.071798244410227,
+          "rmse_db": 13.920578508824184,
+          "psnr_db": 26.755447195106154,
+          "ssim": 0.7205243642684624,
+          "boundary_mae_db": 12.960795788691073
+        },
+        "beam_fixed": {
+          "mae_db": 11.08908961288202,
+          "rmse_db": 13.947804249458605,
+          "psnr_db": 26.73672659043002,
+          "ssim": 0.7190908453140261,
+          "boundary_mae_db": 13.0323570583578
+        },
+        "uniform_learned": {
+          "mae_db": 11.181306157192575,
+          "rmse_db": 14.022769803213762,
+          "psnr_db": 26.689274798622584,
+          "ssim": 0.7190927022595657,
+          "boundary_mae_db": 13.03474606448811
+        },
+        "beam_learned": {
+          "mae_db": 11.158169104369511,
+          "rmse_db": 14.012110092737382,
+          "psnr_db": 26.69697919870802,
+          "ssim": 0.7194210128387781,
+          "boundary_mae_db": 13.110466880221754
+        }
+      },
+      "mae_factorial_contrasts": {
+        "beam_effect_fixed": 0.01729136847179369,
+        "beam_effect_learned": -0.023137052823063442,
+        "scale_effect_uniform": 0.10950791278234817,
+        "scale_effect_beam": 0.06907949148749104,
+        "interaction": -0.04042842129485713
+      }
+    }
+  }
+}

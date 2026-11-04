@@ -39,15 +39,13 @@ class QueryLoader:
 
     def inputs(self,queries,device,arm='A'):
         # Only these whitelisted metadata keys reach this prediction interface.
-        if arm not in ('A','C'): raise ValueError(arm)
+        if arm != 'A': raise ValueError(arm)
         h=torch.from_numpy(np.stack([self._height(q['height']) for q in queries]))[:,None].to(device)
         b=torch.from_numpy(np.stack([self._beam(q['beam']) for q in queries]))[:,None].to(device)
         b=F.interpolate(b,size=(256,256),mode='bilinear',align_corners=False)
         tx=torch.zeros_like(h);tx[:,:,127,127]=1
-        f=torch.tensor([np.log(q['frequency_hz']/6.7e9) for q in queries],device=device,dtype=torch.float32)
-        f=f[:,None,None,None].expand_as(h)
         z=torch.zeros_like(h)
-        condition=torch.cat((tx,h,b if arm=='A' else f,z,z,z),dim=1)
+        condition=torch.cat((tx,h,b,z,z,z),dim=1)
         return condition,b
 
 

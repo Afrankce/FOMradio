@@ -1,0 +1,46 @@
+{
+  "checkpoint_step": 4500,
+  "checkpoint_sha256": "5cbf9f3fb3f94175cc1fc091c2aad880910ce2eaabd2625b43d76dd14e700078",
+  "scenes": [
+    "u1",
+    "u8",
+    "u20",
+    "u22",
+    "u60",
+    "u61",
+    "u70",
+    "u71",
+    "u73",
+    "u88",
+    "u97",
+    "u109"
+  ],
+  "draws": 1,
+  "label": "guided branch fractions, not whole-source fractions",
+  "groups": {
+    "8": {
+      "nominal_scale_weights": [
+        0.016818442071477573,
+        0.01777866358558337,
+        0.9654028415679932
+      ],
+      "conditional_variance_fractions": [
+        0.016331153507861827,
+        0.01757049488110675,
+        0.9660983499553468
+      ]
+    },
+    "32": {
+      "nominal_scale_weights": [
+        0.016735268756747246,
+        0.01718936612208684,
+        0.9660753210385641
+      ],
+      "conditional_variance_fractions": [
+        0.016285168369197182,
+        0.017026077749000654,
+        0.9666887505186929
+      ]
+    }
+  }
+}
