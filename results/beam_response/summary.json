@@ -1,0 +1,2968 @@
+{
+  "purpose": "exploratory; bootstrap varies scenes only",
+  "seeds": [
+    42,
+    43
+  ],
+  "scene_count": 160,
+  "angles": [
+    -28,
+    -21,
+    -14,
+    -7,
+    0,
+    7,
+    14,
+    21
+  ],
+  "draws": 4,
+  "bootstrap_scene_resamples": 10000,
+  "bootstrap_seed": 20261105,
+  "identities": {
+    "42": {
+      "seed": 42,
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "1d3bd168cef1233577ef03c6932d16a8df5f89a20a8fe0c6c8dbdda59d55df31",
+      "selected_scene_count": 160,
+      "array_sizes": [
+        8,
+        32
+      ],
+      "angles_deg": [
+        -28,
+        -21,
+        -14,
+        -7,
+        0,
+        7,
+        14,
+        21
+      ],
+      "frequency_hz": 6700000000,
+      "draws": 4,
+      "noise_seed": 20261104,
+      "nfe": 8,
+      "batch": 4,
+      "batch_layout": "[q1,q1,q2,q2]; retain slots 0 and 2",
+      "target_mask": "-300 < y1 < 0 AND -300 < y2 < 0",
+      "source_pairing": "one common field per scene/draw across all configurations",
+      "torch": "2.5.1+cu121",
+      "cuda": "12.1",
+      "cudnn_version": 90100,
+      "numpy": "1.26.4",
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    "43": {
+      "seed": 43,
+      "checkpoint_step": 4750,
+      "checkpoint_sha256": "cdbe56ac612dd7d8188b0c09dc96744dde8887cb63e849d9286041107208f702",
+      "selected_scene_count": 160,
+      "array_sizes": [
+        8,
+        32
+      ],
+      "angles_deg": [
+        -28,
+        -21,
+        -14,
+        -7,
+        0,
+        7,
+        14,
+        21
+      ],
+      "frequency_hz": 6700000000,
+      "draws": 4,
+      "noise_seed": 20261104,
+      "nfe": 8,
+      "batch": 4,
+      "batch_layout": "[q1,q1,q2,q2]; retain slots 0 and 2",
+      "target_mask": "-300 < y1 < 0 AND -300 < y2 < 0",
+      "source_pairing": "one common field per scene/draw across all configurations",
+      "torch": "2.5.1+cu121",
+      "cuda": "12.1",
+      "cudnn_version": 90100,
+      "numpy": "1.26.4",
+      "gpu": "NVIDIA GeForce RTX 3090"
+    }
+  },
+  "groups": [
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.4845801141260204,
+      "response_mae_ci95_db": [
+        2.324574348178976,
+        2.64894131514402
+      ],
+      "zero_mae_db": 4.9801120694070296,
+      "beam_mae_db": 2.244701452722846,
+      "improvement_vs_zero_db": 2.495531955281009,
+      "improvement_vs_zero_ci95_db": [
+        2.3364534862746447,
+        2.649018943197454
+      ],
+      "improvement_vs_beam_db": -0.2398786614031745,
+      "improvement_vs_beam_ci95_db": [
+        -0.2989337699174473,
+        -0.17766038330972392
+      ],
+      "relative_improvement_vs_zero": 0.5010995577009467,
+      "truth_abs_change_db": 4.9801120694070296,
+      "prediction_abs_change_db": 4.049426244392843,
+      "truth_signed_change_db": 0.42993326911359214,
+      "prediction_signed_change_db": 0.2895516581207996,
+      "prediction_correlation": 0.7742624018528474,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "42"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.305663298575641,
+      "response_mae_ci95_db": [
+        5.066790358649479,
+        5.548056256104171
+      ],
+      "zero_mae_db": 9.39167237267348,
+      "beam_mae_db": 4.016755312192767,
+      "improvement_vs_zero_db": 4.086009074097839,
+      "improvement_vs_zero_ci95_db": [
+        3.7468919913887238,
+        4.420136741616402
+      ],
+      "improvement_vs_beam_db": -1.288907986382874,
+      "improvement_vs_beam_ci95_db": [
+        -1.444394316945133,
+        -1.1256609920561267
+      ],
+      "relative_improvement_vs_zero": 0.43506725021485126,
+      "truth_abs_change_db": 9.39167237267348,
+      "prediction_abs_change_db": 7.943563004431271,
+      "truth_signed_change_db": 1.2557281656033794,
+      "prediction_signed_change_db": 0.28467763432782167,
+      "prediction_correlation": 0.7517573422340712,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "42"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.354366598670113,
+      "response_mae_ci95_db": [
+        5.100902191472231,
+        5.61167601520573
+      ],
+      "zero_mae_db": 10.464417372461753,
+      "beam_mae_db": 4.010926698706091,
+      "improvement_vs_zero_db": 5.11005077379164,
+      "improvement_vs_zero_ci95_db": [
+        4.78544082920735,
+        5.428998269842651
+      ],
+      "improvement_vs_beam_db": -1.3434398999640225,
+      "improvement_vs_beam_ci95_db": [
+        -1.4851349301725794,
+        -1.1980800867760344
+      ],
+      "relative_improvement_vs_zero": 0.4883263531937565,
+      "truth_abs_change_db": 10.464417372461753,
+      "prediction_abs_change_db": 8.734011896441611,
+      "truth_signed_change_db": 2.123717818165621,
+      "prediction_signed_change_db": 0.7645484240577772,
+      "prediction_correlation": 0.7887225304626877,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.098512842286533,
+      "response_mae_ci95_db": [
+        10.010565349224242,
+        10.188928879914128
+      ],
+      "zero_mae_db": 15.18004685072394,
+      "beam_mae_db": 6.865391862968119,
+      "improvement_vs_zero_db": 5.081534008437407,
+      "improvement_vs_zero_ci95_db": [
+        4.910377564014644,
+        5.245998081837982
+      ],
+      "improvement_vs_beam_db": -3.2331209793184144,
+      "improvement_vs_beam_ci95_db": [
+        -3.6146394801310846,
+        -2.8398529423762406
+      ],
+      "relative_improvement_vs_zero": 0.3347508778074072,
+      "truth_abs_change_db": 15.18004685072394,
+      "prediction_abs_change_db": 9.071784695883775,
+      "truth_signed_change_db": -14.661961110153786,
+      "prediction_signed_change_db": -6.794846272433229,
+      "prediction_correlation": 0.588826324886194,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.62921140155393,
+      "response_mae_ci95_db": [
+        10.539035347991785,
+        10.721666798835624
+      ],
+      "zero_mae_db": 16.01349613698176,
+      "beam_mae_db": 6.9280386145073125,
+      "improvement_vs_zero_db": 5.384284735427832,
+      "improvement_vs_zero_ci95_db": [
+        5.208874287804937,
+        5.555085893064195
+      ],
+      "improvement_vs_beam_db": -3.701172787046617,
+      "improvement_vs_beam_ci95_db": [
+        -4.102247902623617,
+        -3.2828723175330032
+      ],
+      "relative_improvement_vs_zero": 0.33623417955516277,
+      "truth_abs_change_db": 16.01349613698176,
+      "prediction_abs_change_db": 9.196207736665327,
+      "truth_signed_change_db": -15.576010540651186,
+      "prediction_signed_change_db": -6.993747112490927,
+      "prediction_correlation": 0.5853127152225455,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.708024227245613,
+      "response_mae_ci95_db": [
+        4.54616707828971,
+        4.875403276185037
+      ],
+      "zero_mae_db": 7.180398070846776,
+      "beam_mae_db": 3.8294859883467076,
+      "improvement_vs_zero_db": 2.4723738436011624,
+      "improvement_vs_zero_ci95_db": [
+        2.297847543227654,
+        2.6438183839617704
+      ],
+      "improvement_vs_beam_db": -0.8785382388989058,
+      "improvement_vs_beam_ci95_db": [
+        -1.047825472601894,
+        -0.7031367967093154
+      ],
+      "relative_improvement_vs_zero": 0.3443226711398186,
+      "truth_abs_change_db": 7.180398070846776,
+      "prediction_abs_change_db": 4.772111356613307,
+      "truth_signed_change_db": 0.40340290995564504,
+      "prediction_signed_change_db": 0.19190957154013946,
+      "prediction_correlation": 0.6880030060960681,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "42"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.047429151352434,
+      "response_mae_ci95_db": [
+        4.872611530481506,
+        5.229913879296178
+      ],
+      "zero_mae_db": 7.968448439742531,
+      "beam_mae_db": 4.026352243210126,
+      "improvement_vs_zero_db": 2.921019288390097,
+      "improvement_vs_zero_ci95_db": [
+        2.7214169111873927,
+        3.114131261953747
+      ],
+      "improvement_vs_beam_db": -1.021076908142308,
+      "improvement_vs_beam_ci95_db": [
+        -1.192892718800101,
+        -0.8412400426434423
+      ],
+      "relative_improvement_vs_zero": 0.3665731554240286,
+      "truth_abs_change_db": 7.968448439742531,
+      "prediction_abs_change_db": 5.46470983042928,
+      "truth_signed_change_db": 0.8447856205380241,
+      "prediction_signed_change_db": 0.3086045437209902,
+      "prediction_correlation": 0.6946168066881295,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.4697662066309762,
+      "response_mae_ci95_db": [
+        2.30757217839372,
+        2.636208225903678
+      ],
+      "zero_mae_db": 4.9801120694070296,
+      "beam_mae_db": 2.244701452722846,
+      "improvement_vs_zero_db": 2.5103458627760533,
+      "improvement_vs_zero_ci95_db": [
+        2.350595988827035,
+        2.6640957684403195
+      ],
+      "improvement_vs_beam_db": -0.2250647539081303,
+      "improvement_vs_beam_ci95_db": [
+        -0.28275804874982624,
+        -0.16333552563650103
+      ],
+      "relative_improvement_vs_zero": 0.5040741709804444,
+      "truth_abs_change_db": 4.9801120694070296,
+      "prediction_abs_change_db": 4.059521041617691,
+      "truth_signed_change_db": 0.42993326911359214,
+      "prediction_signed_change_db": 0.26955874527685986,
+      "prediction_correlation": 0.7758210565186274,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.709187883516867,
+      "response_mae_ci95_db": [
+        4.439503403120087,
+        4.980375386397497
+      ],
+      "zero_mae_db": 9.39167237267348,
+      "beam_mae_db": 4.016755312192767,
+      "improvement_vs_zero_db": 4.682484489156613,
+      "improvement_vs_zero_ci95_db": [
+        4.314348276246456,
+        5.046162653054734
+      ],
+      "improvement_vs_beam_db": -0.6924325713241002,
+      "improvement_vs_beam_ci95_db": [
+        -0.8226603029338639,
+        -0.5582411464428984
+      ],
+      "relative_improvement_vs_zero": 0.498578347215457,
+      "truth_abs_change_db": 9.39167237267348,
+      "prediction_abs_change_db": 8.237425865507417,
+      "truth_signed_change_db": 1.2557281656033794,
+      "prediction_signed_change_db": 0.4352017032893988,
+      "prediction_correlation": 0.776865433642835,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.905221306878896,
+      "response_mae_ci95_db": [
+        4.632088521019085,
+        5.181815877270336
+      ],
+      "zero_mae_db": 10.464417372461753,
+      "beam_mae_db": 4.010926698706091,
+      "improvement_vs_zero_db": 5.559196065582857,
+      "improvement_vs_zero_ci95_db": [
+        5.216745623042807,
+        5.897506376546638
+      ],
+      "improvement_vs_beam_db": -0.8942946081728049,
+      "improvement_vs_beam_ci95_db": [
+        -1.018177434945687,
+        -0.765468003388057
+      ],
+      "relative_improvement_vs_zero": 0.5312475475426357,
+      "truth_abs_change_db": 10.464417372461753,
+      "prediction_abs_change_db": 9.040885481349065,
+      "truth_signed_change_db": 2.123717818165621,
+      "prediction_signed_change_db": 0.8199075687286204,
+      "prediction_correlation": 0.8055126868568248,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.612024630372996,
+      "response_mae_ci95_db": [
+        10.523912833500498,
+        10.701062662191044
+      ],
+      "zero_mae_db": 15.18004685072394,
+      "beam_mae_db": 6.865391862968119,
+      "improvement_vs_zero_db": 4.568022220350944,
+      "improvement_vs_zero_ci95_db": [
+        4.41222970282736,
+        4.71936060433955
+      ],
+      "improvement_vs_beam_db": -3.7466327674048774,
+      "improvement_vs_beam_ci95_db": [
+        -4.1453814843019305,
+        -3.3395347409393827
+      ],
+      "relative_improvement_vs_zero": 0.3009228011791738,
+      "truth_abs_change_db": 15.18004685072394,
+      "prediction_abs_change_db": 8.991565584614928,
+      "truth_signed_change_db": -14.661961110153786,
+      "prediction_signed_change_db": -6.129651090036845,
+      "prediction_correlation": 0.6016943279362883,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.134856767931936,
+      "response_mae_ci95_db": [
+        11.043888597989188,
+        11.22567873939991
+      ],
+      "zero_mae_db": 16.01349613698176,
+      "beam_mae_db": 6.9280386145073125,
+      "improvement_vs_zero_db": 4.878639369049825,
+      "improvement_vs_zero_ci95_db": [
+        4.709768398174033,
+        5.041567262650844
+      ],
+      "improvement_vs_beam_db": -4.206818153424623,
+      "improvement_vs_beam_ci95_db": [
+        -4.617464559050032,
+        -3.7824274554698096
+      ],
+      "relative_improvement_vs_zero": 0.30465797895208135,
+      "truth_abs_change_db": 16.01349613698176,
+      "prediction_abs_change_db": 9.18983831395186,
+      "truth_signed_change_db": -15.576010540651186,
+      "prediction_signed_change_db": -6.410157288141221,
+      "prediction_correlation": 0.5917770503310963,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.613536171606323,
+      "response_mae_ci95_db": [
+        4.449093406368439,
+        4.784506651966854
+      ],
+      "zero_mae_db": 7.180398070846776,
+      "beam_mae_db": 3.8294859883467076,
+      "improvement_vs_zero_db": 2.566861899240453,
+      "improvement_vs_zero_ci95_db": [
+        2.3893384692644886,
+        2.739630239308006
+      ],
+      "improvement_vs_beam_db": -0.7840501832596152,
+      "improvement_vs_beam_ci95_db": [
+        -0.9507796310821239,
+        -0.6099808627765618
+      ],
+      "relative_improvement_vs_zero": 0.3574818379028596,
+      "truth_abs_change_db": 7.180398070846776,
+      "prediction_abs_change_db": 4.895852526374649,
+      "truth_signed_change_db": 0.40340290995564504,
+      "prediction_signed_change_db": 0.23733071754796714,
+      "prediction_correlation": 0.6955859306695771,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.9630476446775,
+      "response_mae_ci95_db": [
+        4.785329988260629,
+        5.147416429687667
+      ],
+      "zero_mae_db": 7.968448439742531,
+      "beam_mae_db": 4.026352243210126,
+      "improvement_vs_zero_db": 3.0054007950650306,
+      "improvement_vs_zero_ci95_db": [
+        2.8035358036768185,
+        3.2010517364067135
+      ],
+      "improvement_vs_beam_db": -0.9366954014673743,
+      "improvement_vs_beam_ci95_db": [
+        -1.1067888740168554,
+        -0.760041276948064
+      ],
+      "relative_improvement_vs_zero": 0.3771626079771858,
+      "truth_abs_change_db": 7.968448439742531,
+      "prediction_abs_change_db": 5.632373630977379,
+      "truth_signed_change_db": 0.8447856205380241,
+      "prediction_signed_change_db": 0.3640336726292946,
+      "prediction_correlation": 0.6999308576306017,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.4771731603784986,
+      "response_mae_ci95_db": [
+        2.3160419815236404,
+        2.6427315462650602
+      ],
+      "zero_mae_db": 4.9801120694070296,
+      "beam_mae_db": 2.244701452722846,
+      "improvement_vs_zero_db": 2.502938909028531,
+      "improvement_vs_zero_ci95_db": [
+        2.3441164110919868,
+        2.6566467699072054
+      ],
+      "improvement_vs_beam_db": -0.23247170765565262,
+      "improvement_vs_beam_ci95_db": [
+        -0.2908168347208336,
+        -0.17070369597162385
+      ],
+      "relative_improvement_vs_zero": 0.5025868643406954,
+      "truth_abs_change_db": 4.9801120694070296,
+      "prediction_abs_change_db": 4.0544736430052675,
+      "truth_signed_change_db": 0.42993326911359214,
+      "prediction_signed_change_db": 0.2795552016988297,
+      "prediction_correlation": 0.7750417291857374,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "42,43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.007425591046254,
+      "response_mae_ci95_db": [
+        4.75468874231599,
+        5.263672325967327
+      ],
+      "zero_mae_db": 9.39167237267348,
+      "beam_mae_db": 4.016755312192767,
+      "improvement_vs_zero_db": 4.384246781627225,
+      "improvement_vs_zero_ci95_db": [
+        4.030489554482118,
+        4.732344645832755
+      ],
+      "improvement_vs_beam_db": -0.9906702788534876,
+      "improvement_vs_beam_ci95_db": [
+        -1.1337448957540999,
+        -0.8432476983195463
+      ],
+      "relative_improvement_vs_zero": 0.4668227987151541,
+      "truth_abs_change_db": 9.39167237267348,
+      "prediction_abs_change_db": 8.090494434969342,
+      "truth_signed_change_db": 1.2557281656033794,
+      "prediction_signed_change_db": 0.3599396688086102,
+      "prediction_correlation": 0.7643113879384531,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "42,43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.129793952774504,
+      "response_mae_ci95_db": [
+        4.866726226895752,
+        5.3961669970708925
+      ],
+      "zero_mae_db": 10.464417372461753,
+      "beam_mae_db": 4.010926698706091,
+      "improvement_vs_zero_db": 5.334623419687249,
+      "improvement_vs_zero_ci95_db": [
+        5.001418367721633,
+        5.66358970157362
+      ],
+      "improvement_vs_beam_db": -1.1188672540684133,
+      "improvement_vs_beam_ci95_db": [
+        -1.2505297422291608,
+        -0.9820173274048684
+      ],
+      "relative_improvement_vs_zero": 0.5097869503681962,
+      "truth_abs_change_db": 10.464417372461753,
+      "prediction_abs_change_db": 8.887448688895336,
+      "truth_signed_change_db": 2.123717818165621,
+      "prediction_signed_change_db": 0.7922279963931989,
+      "prediction_correlation": 0.7971176086597562,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42,43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.355268736329766,
+      "response_mae_ci95_db": [
+        10.269577659082842,
+        10.442301612674795
+      ],
+      "zero_mae_db": 15.18004685072394,
+      "beam_mae_db": 6.865391862968119,
+      "improvement_vs_zero_db": 4.824778114394174,
+      "improvement_vs_zero_ci95_db": [
+        4.663357211298044,
+        4.980431956728494
+      ],
+      "improvement_vs_beam_db": -3.4898768733616468,
+      "improvement_vs_beam_ci95_db": [
+        -3.8789714080531468,
+        -3.0912705230014756
+      ],
+      "relative_improvement_vs_zero": 0.31783683949329045,
+      "truth_abs_change_db": 15.18004685072394,
+      "prediction_abs_change_db": 9.031675140249352,
+      "truth_signed_change_db": -14.661961110153786,
+      "prediction_signed_change_db": -6.462248681235039,
+      "prediction_correlation": 0.5952603264112412,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42,43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.882034084742932,
+      "response_mae_ci95_db": [
+        10.793450667070589,
+        10.972124976112758
+      ],
+      "zero_mae_db": 16.01349613698176,
+      "beam_mae_db": 6.9280386145073125,
+      "improvement_vs_zero_db": 5.131462052238829,
+      "improvement_vs_zero_ci95_db": [
+        4.9602610757033485,
+        5.298663155196677
+      ],
+      "improvement_vs_beam_db": -3.9539954702356193,
+      "improvement_vs_beam_ci95_db": [
+        -4.358675691920282,
+        -3.5335729315288242
+      ],
+      "relative_improvement_vs_zero": 0.3204460792536221,
+      "truth_abs_change_db": 16.01349613698176,
+      "prediction_abs_change_db": 9.193023025308594,
+      "truth_signed_change_db": -15.576010540651186,
+      "prediction_signed_change_db": -6.701952200316073,
+      "prediction_correlation": 0.5885448827768208,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42,43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.660780199425968,
+      "response_mae_ci95_db": [
+        4.496963845910758,
+        4.830334761921695
+      ],
+      "zero_mae_db": 7.180398070846776,
+      "beam_mae_db": 3.8294859883467076,
+      "improvement_vs_zero_db": 2.5196178714208077,
+      "improvement_vs_zero_ci95_db": [
+        2.344211427279356,
+        2.691062906892978
+      ],
+      "improvement_vs_beam_db": -0.8312942110792605,
+      "improvement_vs_beam_ci95_db": [
+        -1.000023482813742,
+        -0.6560405021113872
+      ],
+      "relative_improvement_vs_zero": 0.35090225452133916,
+      "truth_abs_change_db": 7.180398070846776,
+      "prediction_abs_change_db": 4.8339819414939775,
+      "truth_signed_change_db": 0.40340290995564504,
+      "prediction_signed_change_db": 0.2146201445440533,
+      "prediction_correlation": 0.6917944683828227,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "42,43"
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.005238398014967,
+      "response_mae_ci95_db": [
+        4.829609516947863,
+        5.187683531854561
+      ],
+      "zero_mae_db": 7.968448439742531,
+      "beam_mae_db": 4.026352243210126,
+      "improvement_vs_zero_db": 2.9632100417275637,
+      "improvement_vs_zero_ci95_db": [
+        2.7630739336773606,
+        3.1572474526722023
+      ],
+      "improvement_vs_beam_db": -0.9788861548048411,
+      "improvement_vs_beam_ci95_db": [
+        -1.1500070143736791,
+        -0.8011497000462584
+      ],
+      "relative_improvement_vs_zero": 0.37186788170060725,
+      "truth_abs_change_db": 7.968448439742531,
+      "prediction_abs_change_db": 5.548541730703329,
+      "truth_signed_change_db": 0.8447856205380241,
+      "prediction_signed_change_db": 0.33631910817514243,
+      "prediction_correlation": 0.6972738321593657,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42,43"
+    }
+  ],
+  "pairs": [
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.4785037769121745,
+      "response_mae_ci95_db": [
+        4.250520825759514,
+        4.7095022662222785
+      ],
+      "zero_mae_db": 9.073514930876524,
+      "beam_mae_db": 3.5125930897160025,
+      "improvement_vs_zero_db": 4.595011153964349,
+      "improvement_vs_zero_ci95_db": [
+        4.325808538361407,
+        4.858764370250682
+      ],
+      "improvement_vs_beam_db": -0.965910687196172,
+      "improvement_vs_beam_ci95_db": [
+        -1.081320411585857,
+        -0.8463373830898677
+      ],
+      "relative_improvement_vs_zero": 0.5064201898569489,
+      "truth_abs_change_db": 9.073514930876524,
+      "prediction_abs_change_db": 7.474777267501613,
+      "truth_signed_change_db": 2.1172085818171156,
+      "prediction_signed_change_db": 0.9823808320183438,
+      "prediction_correlation": 0.8008011808331277,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.764809055932773,
+      "response_mae_ci95_db": [
+        5.4945809735281195,
+        6.040430396146441
+      ],
+      "zero_mae_db": 11.160139297734268,
+      "beam_mae_db": 4.254844702400852,
+      "improvement_vs_zero_db": 5.395330241801496,
+      "improvement_vs_zero_ci95_db": [
+        5.0399562315207636,
+        5.744459819706961
+      ],
+      "improvement_vs_beam_db": -1.5099643535319203,
+      "improvement_vs_beam_ci95_db": [
+        -1.6659520605838374,
+        -1.3509786824306347
+      ],
+      "relative_improvement_vs_zero": 0.48344649630823655,
+      "truth_abs_change_db": 11.160139297734268,
+      "prediction_abs_change_db": 9.323685943353777,
+      "truth_signed_change_db": 2.070188249558902,
+      "prediction_signed_change_db": 0.623736667580719,
+      "prediction_correlation": 0.7837727259026805,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.4708362517910514,
+      "response_mae_ci95_db": [
+        2.3071616330071465,
+        2.6417254491684616
+      ],
+      "zero_mae_db": 4.967742903240499,
+      "beam_mae_db": 2.2376837153772215,
+      "improvement_vs_zero_db": 2.4969066514494473,
+      "improvement_vs_zero_ci95_db": [
+        2.3373557044306184,
+        2.651748230852828
+      ],
+      "improvement_vs_beam_db": -0.23315253641382983,
+      "improvement_vs_beam_ci95_db": [
+        -0.29182886691438353,
+        -0.17104571039690208
+      ],
+      "relative_improvement_vs_zero": 0.5026239682856162,
+      "truth_abs_change_db": 4.967742903240499,
+      "prediction_abs_change_db": 4.035303895422558,
+      "truth_signed_change_db": 0.37901239627424377,
+      "prediction_signed_change_db": 0.2564239923065544,
+      "prediction_correlation": 0.7763266163336688,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.296059227568451,
+      "response_mae_ci95_db": [
+        5.0562579116826205,
+        5.539908166146669
+      ],
+      "zero_mae_db": 9.39048176715907,
+      "beam_mae_db": 4.017225229477621,
+      "improvement_vs_zero_db": 4.094422539590619,
+      "improvement_vs_zero_ci95_db": [
+        3.753965051597015,
+        4.4278707946487
+      ],
+      "improvement_vs_beam_db": -1.27883399809083,
+      "improvement_vs_beam_ci95_db": [
+        -1.4359576860177312,
+        -1.1158453936860184
+      ],
+      "relative_improvement_vs_zero": 0.43601836850478404,
+      "truth_abs_change_db": 9.39048176715907,
+      "prediction_abs_change_db": 7.926008281596711,
+      "truth_signed_change_db": 1.2393528479329898,
+      "prediction_signed_change_db": 0.25279618131355036,
+      "prediction_correlation": 0.7521593507715052,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.315267369582831,
+      "response_mae_ci95_db": [
+        5.075956902863122,
+        5.558622066950534
+      ],
+      "zero_mae_db": 9.392862978187889,
+      "beam_mae_db": 4.016285394907911,
+      "improvement_vs_zero_db": 4.0775956086050575,
+      "improvement_vs_zero_ci95_db": [
+        3.7382923353375435,
+        4.411158903194249
+      ],
+      "improvement_vs_beam_db": -1.2989819746749207,
+      "improvement_vs_beam_ci95_db": [
+        -1.454256323593722,
+        -1.1367523871120842
+      ],
+      "relative_improvement_vs_zero": 0.4341163730455828,
+      "truth_abs_change_db": 9.392862978187889,
+      "prediction_abs_change_db": 7.961117727265828,
+      "truth_signed_change_db": 1.2721034832737685,
+      "prediction_signed_change_db": 0.31655908734209304,
+      "prediction_correlation": 0.7513553336966373,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.49832397646099,
+      "response_mae_ci95_db": [
+        2.333673330874566,
+        2.6651694906863668
+      ],
+      "zero_mae_db": 4.99248123557356,
+      "beam_mae_db": 2.2517191900684703,
+      "improvement_vs_zero_db": 2.4941572591125705,
+      "improvement_vs_zero_ci95_db": [
+        2.3354828835847345,
+        2.6490152459482808
+      ],
+      "improvement_vs_beam_db": -0.2466047863925196,
+      "improvement_vs_beam_ci95_db": [
+        -0.30739307227607343,
+        -0.1824159866705114
+      ],
+      "relative_improvement_vs_zero": 0.49958270075020716,
+      "truth_abs_change_db": 4.99248123557356,
+      "prediction_abs_change_db": 4.063548593363128,
+      "truth_signed_change_db": 0.4808541419529404,
+      "prediction_signed_change_db": 0.3226793239350448,
+      "prediction_correlation": 0.7721981873720258,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.819786963165393,
+      "response_mae_ci95_db": [
+        5.549214480976634,
+        6.092268753192925
+      ],
+      "zero_mae_db": 11.159597888774467,
+      "beam_mae_db": 4.265342304001419,
+      "improvement_vs_zero_db": 5.339810925609074,
+      "improvement_vs_zero_ci95_db": [
+        4.979405043698264,
+        5.6928568851805395
+      ],
+      "improvement_vs_beam_db": -1.5544446591639742,
+      "improvement_vs_beam_ci95_db": [
+        -1.7120786010586568,
+        -1.3917281182744452
+      ],
+      "relative_improvement_vs_zero": 0.47849492238250213,
+      "truth_abs_change_db": 11.159597888774467,
+      "prediction_abs_change_db": 9.403572478469442,
+      "truth_signed_change_db": 2.1837566231208476,
+      "prediction_signed_change_db": 0.6875277725742693,
+      "prediction_correlation": 0.781593684652255,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.064270867610952,
+      "response_mae_ci95_db": [
+        9.97390647038211,
+        10.15833502765895
+      ],
+      "zero_mae_db": 15.386097214520381,
+      "beam_mae_db": 6.836078786173587,
+      "improvement_vs_zero_db": 5.321826346909429,
+      "improvement_vs_zero_ci95_db": [
+        5.1478054593767135,
+        5.4904275915390475
+      ],
+      "improvement_vs_beam_db": -3.2281920814373652,
+      "improvement_vs_beam_ci95_db": [
+        -3.6134337697649097,
+        -2.8349005516342465
+      ],
+      "relative_improvement_vs_zero": 0.34588539723296696,
+      "truth_abs_change_db": 15.386097214520381,
+      "prediction_abs_change_db": 9.120051800742306,
+      "truth_signed_change_db": -14.886173275732494,
+      "prediction_signed_change_db": -7.013196858195971,
+      "prediction_correlation": 0.5914131762217127,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": -28,
+      "array2": 32,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.74800308251037,
+      "response_mae_ci95_db": [
+        10.647882697314317,
+        10.847984850344545
+      ],
+      "zero_mae_db": 16.127948470258502,
+      "beam_mae_db": 6.900763972437393,
+      "improvement_vs_zero_db": 5.379945387748132,
+      "improvement_vs_zero_ci95_db": [
+        5.19640957406312,
+        5.554097781028306
+      ],
+      "improvement_vs_beam_db": -3.8472391100729775,
+      "improvement_vs_beam_ci95_db": [
+        -4.250044859572881,
+        -3.4338891528002145
+      ],
+      "relative_improvement_vs_zero": 0.33357902883117907,
+      "truth_abs_change_db": 16.127948470258502,
+      "prediction_abs_change_db": 9.195407473609881,
+      "truth_signed_change_db": -15.708149629764979,
+      "prediction_signed_change_db": -6.961769689842901,
+      "prediction_correlation": 0.5831364909001894,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": -21,
+      "array2": 32,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.090910762600553,
+      "response_mae_ci95_db": [
+        10.001028780853884,
+        10.184775952737622
+      ],
+      "zero_mae_db": 15.225308990892529,
+      "beam_mae_db": 6.854963895154721,
+      "improvement_vs_zero_db": 5.1343982282919765,
+      "improvement_vs_zero_ci95_db": [
+        4.960726022556438,
+        5.304545940074104
+      ],
+      "improvement_vs_beam_db": -3.235946867445832,
+      "improvement_vs_beam_ci95_db": [
+        -3.6110076720009396,
+        -2.8479784137954196
+      ],
+      "relative_improvement_vs_zero": 0.3372278507689578,
+      "truth_abs_change_db": 15.225308990892529,
+      "prediction_abs_change_db": 9.077793343734081,
+      "truth_signed_change_db": -14.70895482425692,
+      "prediction_signed_change_db": -6.83504708330373,
+      "prediction_correlation": 0.5903468015539329,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": -14,
+      "array2": 32,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.834561026622552,
+      "response_mae_ci95_db": [
+        10.737045105700062,
+        10.933228587526278
+      ],
+      "zero_mae_db": 16.27505538785137,
+      "beam_mae_db": 6.983045581266566,
+      "improvement_vs_zero_db": 5.440494361228819,
+      "improvement_vs_zero_ci95_db": [
+        5.254009140075103,
+        5.619321573364296
+      ],
+      "improvement_vs_beam_db": -3.851515445355986,
+      "improvement_vs_beam_ci95_db": [
+        -4.261799717082504,
+        -3.4253327450845523
+      ],
+      "relative_improvement_vs_zero": 0.3342842301655031,
+      "truth_abs_change_db": 16.27505538785137,
+      "prediction_abs_change_db": 9.265161650035392,
+      "truth_signed_change_db": -15.849662848462245,
+      "prediction_signed_change_db": -7.05224810633085,
+      "prediction_correlation": 0.5848402991301309,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": -7,
+      "array2": 32,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.139435468059414,
+      "response_mae_ci95_db": [
+        10.047672035364107,
+        10.231754899007113
+      ],
+      "zero_mae_db": 15.161795502742285,
+      "beam_mae_db": 6.858689848097924,
+      "improvement_vs_zero_db": 5.022360034682871,
+      "improvement_vs_zero_ci95_db": [
+        4.856818683257886,
+        5.183069053731797
+      ],
+      "improvement_vs_beam_db": -3.2807456199614897,
+      "improvement_vs_beam_ci95_db": [
+        -3.6678844196737814,
+        -2.8794610551434148
+      ],
+      "relative_improvement_vs_zero": 0.331251007426824,
+      "truth_abs_change_db": 15.161795502742285,
+      "prediction_abs_change_db": 9.045753422039052,
+      "truth_signed_change_db": -14.644274204048486,
+      "prediction_signed_change_db": -6.7297515480461225,
+      "prediction_correlation": 0.5879191860442529,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 0
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.82351893037623,
+      "response_mae_ci95_db": [
+        10.725626598113847,
+        10.920391608013496
+      ],
+      "zero_mae_db": 16.242463775312796,
+      "beam_mae_db": 6.973456480272452,
+      "improvement_vs_zero_db": 5.418944844936567,
+      "improvement_vs_zero_ci95_db": [
+        5.242511856842202,
+        5.592072177681917
+      ],
+      "improvement_vs_beam_db": -3.8500624501037777,
+      "improvement_vs_beam_ci95_db": [
+        -4.268191931494924,
+        -3.4157745757126157
+      ],
+      "relative_improvement_vs_zero": 0.3336282549186236,
+      "truth_abs_change_db": 16.242463775312796,
+      "prediction_abs_change_db": 9.20340201295993,
+      "truth_signed_change_db": -15.825637237479091,
+      "prediction_signed_change_db": -6.9751257216809766,
+      "prediction_correlation": 0.5860863408743061,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": 7,
+      "array2": 32,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.065192296199632,
+      "response_mae_ci95_db": [
+        9.975272611530817,
+        10.156316899873831
+      ],
+      "zero_mae_db": 15.153036058537008,
+      "beam_mae_db": 6.882521845651711,
+      "improvement_vs_zero_db": 5.087843762337377,
+      "improvement_vs_zero_ci95_db": [
+        4.910211183980091,
+        5.2553709849377235
+      ],
+      "improvement_vs_beam_db": -3.1826704505479206,
+      "improvement_vs_beam_ci95_db": [
+        -3.5664616972359937,
+        -2.787043111806879
+      ],
+      "relative_improvement_vs_zero": 0.3357639843713668,
+      "truth_abs_change_db": 15.153036058537008,
+      "prediction_abs_change_db": 9.091807321878193,
+      "truth_signed_change_db": -14.632654302155947,
+      "prediction_signed_change_db": -6.819740185949837,
+      "prediction_correlation": 0.5882129870603965,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": 14,
+      "array2": 32,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.675703100649539,
+      "response_mae_ci95_db": [
+        10.583886457136913,
+        10.76812882572279
+      ],
+      "zero_mae_db": 16.035915836965756,
+      "beam_mae_db": 6.946848252386568,
+      "improvement_vs_zero_db": 5.3602127363162175,
+      "improvement_vs_zero_ci95_db": [
+        5.177451225074269,
+        5.53810238168321
+      ],
+      "improvement_vs_beam_db": -3.728854848262971,
+      "improvement_vs_beam_ci95_db": [
+        -4.144339496902439,
+        -3.296429563003916
+      ],
+      "relative_improvement_vs_zero": 0.3342629626403959,
+      "truth_abs_change_db": 16.035915836965756,
+      "prediction_abs_change_db": 9.19701574597913,
+      "truth_signed_change_db": -15.610429711817128,
+      "prediction_signed_change_db": -6.966395186403938,
+      "prediction_correlation": 0.581087268986388,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42",
+      "array1": 8,
+      "angle1": 21,
+      "array2": 32,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.907041192958767,
+      "response_mae_ci95_db": [
+        6.668864892385544,
+        7.150951923203251
+      ],
+      "zero_mae_db": 11.62598733177279,
+      "beam_mae_db": 5.456212582394142,
+      "improvement_vs_zero_db": 4.718946138814024,
+      "improvement_vs_zero_ci95_db": [
+        4.421139779033092,
+        5.006236249606239
+      ],
+      "improvement_vs_beam_db": -1.450828610564625,
+      "improvement_vs_beam_ci95_db": [
+        -1.6922698390527058,
+        -1.201749554972113
+      ],
+      "relative_improvement_vs_zero": 0.405896377154787,
+      "truth_abs_change_db": 11.62598733177279,
+      "prediction_abs_change_db": 8.265785980298935,
+      "truth_signed_change_db": 1.875309510133107,
+      "prediction_signed_change_db": 0.698935521868495,
+      "prediction_correlation": 0.7473033563265936,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.08633406158208,
+      "response_mae_ci95_db": [
+        5.871259571189313,
+        6.311465899445224
+      ],
+      "zero_mae_db": 9.839585167312308,
+      "beam_mae_db": 4.847623370553805,
+      "improvement_vs_zero_db": 3.753251105730228,
+      "improvement_vs_zero_ci95_db": [
+        3.501181938506144,
+        3.9977242397888593
+      ],
+      "improvement_vs_beam_db": -1.2387106910282748,
+      "improvement_vs_beam_ci95_db": [
+        -1.4524067170020747,
+        -1.0168431606580477
+      ],
+      "relative_improvement_vs_zero": 0.3814440387384168,
+      "truth_abs_change_db": 9.839585167312308,
+      "prediction_abs_change_db": 6.725261927397949,
+      "truth_signed_change_db": 1.0063128238424128,
+      "prediction_signed_change_db": 0.3917185257839401,
+      "prediction_correlation": 0.7229269340821964,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.686568609545302,
+      "response_mae_ci95_db": [
+        4.519658803542977,
+        4.86149842774067
+      ],
+      "zero_mae_db": 7.167605905692852,
+      "beam_mae_db": 3.8187976359560536,
+      "improvement_vs_zero_db": 2.4810372961475506,
+      "improvement_vs_zero_ci95_db": [
+        2.304848183259561,
+        2.6542096144807057
+      ],
+      "improvement_vs_beam_db": -0.867770973589248,
+      "improvement_vs_beam_ci95_db": [
+        -1.0368497260837415,
+        -0.6936255938316591
+      ],
+      "relative_improvement_vs_zero": 0.3461458859194523,
+      "truth_abs_change_db": 7.167605905692852,
+      "prediction_abs_change_db": 4.7763088634584365,
+      "truth_signed_change_db": 0.3143317760658095,
+      "prediction_signed_change_db": 0.15112845704894756,
+      "prediction_correlation": 0.6912193394860306,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "42",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 3.070252108862004,
+      "response_mae_ci95_db": [
+        2.9511571706231576,
+        3.1949049814141053
+      ],
+      "zero_mae_db": 4.2324444389455875,
+      "beam_mae_db": 2.4656527075221404,
+      "improvement_vs_zero_db": 1.1621923300835837,
+      "improvement_vs_zero_ci95_db": [
+        1.0609118796652008,
+        1.2602353356749454
+      ],
+      "improvement_vs_beam_db": -0.6045994013398635,
+      "improvement_vs_beam_ci95_db": [
+        -0.7051713973367139,
+        -0.5013646534907626
+      ],
+      "relative_improvement_vs_zero": 0.2745912785976503,
+      "truth_abs_change_db": 4.2324444389455875,
+      "prediction_abs_change_db": 2.81019059365791,
+      "truth_signed_change_db": 0.03396420351923145,
+      "prediction_signed_change_db": -0.06970037697117744,
+      "prediction_correlation": 0.640550811982928,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 3.05204253582769,
+      "response_mae_ci95_db": [
+        2.9287684440887576,
+        3.18310120868138
+      ],
+      "zero_mae_db": 4.24919146241105,
+      "beam_mae_db": 2.4834554971055463,
+      "improvement_vs_zero_db": 1.1971489265833597,
+      "improvement_vs_zero_ci95_db": [
+        1.0940804224361933,
+        1.2988004786094247
+      ],
+      "improvement_vs_beam_db": -0.5685870387221437,
+      "improvement_vs_beam_ci95_db": [
+        -0.66666134307386,
+        -0.46558890302886746
+      ],
+      "relative_improvement_vs_zero": 0.28173569893790595,
+      "truth_abs_change_db": 4.24919146241105,
+      "prediction_abs_change_db": 2.7798090666783777,
+      "truth_signed_change_db": 0.09074044984316323,
+      "prediction_signed_change_db": 0.07118491370723956,
+      "prediction_correlation": 0.6413293470896918,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.729479844945925,
+      "response_mae_ci95_db": [
+        4.564677346301247,
+        4.897386917647433
+      ],
+      "zero_mae_db": 7.193190236000703,
+      "beam_mae_db": 3.8401743407373616,
+      "improvement_vs_zero_db": 2.4637103910547777,
+      "improvement_vs_zero_ci95_db": [
+        2.286535775022713,
+        2.6362399643604655
+      ],
+      "improvement_vs_beam_db": -0.8893055042085636,
+      "improvement_vs_beam_ci95_db": [
+        -1.0605318989658965,
+        -0.7118292611153432
+      ],
+      "relative_improvement_vs_zero": 0.3425059410669168,
+      "truth_abs_change_db": 7.193190236000703,
+      "prediction_abs_change_db": 4.767913849768176,
+      "truth_signed_change_db": 0.4924740438454805,
+      "prediction_signed_change_db": 0.23269068603133136,
+      "prediction_correlation": 0.6847866727061056,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "42",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.121475857531626,
+      "response_mae_ci95_db": [
+        5.904354008919342,
+        6.344597047308294
+      ],
+      "zero_mae_db": 9.895033798270916,
+      "beam_mae_db": 4.878817058474997,
+      "improvement_vs_zero_db": 3.7735579407392894,
+      "improvement_vs_zero_ci95_db": [
+        3.5211643087657434,
+        4.019588599352045
+      ],
+      "improvement_vs_beam_db": -1.2426587990566293,
+      "improvement_vs_beam_ci95_db": [
+        -1.458725934489903,
+        -1.0178840694388143
+      ],
+      "relative_improvement_vs_zero": 0.38135877225590586,
+      "truth_abs_change_db": 9.895033798270916,
+      "prediction_abs_change_db": 6.742501584113226,
+      "truth_signed_change_db": 1.2176011153522062,
+      "prediction_signed_change_db": 0.4508841342164541,
+      "prediction_correlation": 0.7209735839592378,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.299983514605258,
+      "response_mae_ci95_db": [
+        4.071140622882042,
+        4.535489577497426
+      ],
+      "zero_mae_db": 9.073514930876524,
+      "beam_mae_db": 3.5125930897160025,
+      "improvement_vs_zero_db": 4.773531416271266,
+      "improvement_vs_zero_ci95_db": [
+        4.502945203112194,
+        5.038774568899212
+      ],
+      "improvement_vs_beam_db": -0.7873904248892556,
+      "improvement_vs_beam_ci95_db": [
+        -0.8984015017238244,
+        -0.6710139247777366
+      ],
+      "relative_improvement_vs_zero": 0.5260950637803306,
+      "truth_abs_change_db": 9.073514930876524,
+      "prediction_abs_change_db": 7.72011212201613,
+      "truth_signed_change_db": 2.1172085818171156,
+      "prediction_signed_change_db": 0.9114713825498676,
+      "prediction_correlation": 0.8097742772648757,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.177168006562445,
+      "response_mae_ci95_db": [
+        4.879632228817383,
+        5.480789348276743
+      ],
+      "zero_mae_db": 11.160139297734268,
+      "beam_mae_db": 4.254844702400852,
+      "improvement_vs_zero_db": 5.982971291171824,
+      "improvement_vs_zero_ci95_db": [
+        5.5992040775111365,
+        6.3613763837929
+      ],
+      "improvement_vs_beam_db": -0.9223233041615924,
+      "improvement_vs_beam_ci95_db": [
+        -1.0532870035234905,
+        -0.7884562356601701
+      ],
+      "relative_improvement_vs_zero": 0.5361018470787804,
+      "truth_abs_change_db": 11.160139297734268,
+      "prediction_abs_change_db": 9.715057430726402,
+      "truth_signed_change_db": 2.070188249558902,
+      "prediction_signed_change_db": 0.798445802272518,
+      "prediction_correlation": 0.8041154121725917,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.4540058645266063,
+      "response_mae_ci95_db": [
+        2.2914318434414827,
+        2.62338301506327
+      ],
+      "zero_mae_db": 4.967742903240499,
+      "beam_mae_db": 2.2376837153772215,
+      "improvement_vs_zero_db": 2.5137370387138924,
+      "improvement_vs_zero_ci95_db": [
+        2.352024274478094,
+        2.670755350243425
+      ],
+      "improvement_vs_beam_db": -0.21632214914938475,
+      "improvement_vs_beam_ci95_db": [
+        -0.2743255437368366,
+        -0.1558113232519434
+      ],
+      "relative_improvement_vs_zero": 0.506011902724306,
+      "truth_abs_change_db": 4.967742903240499,
+      "prediction_abs_change_db": 4.067575310780247,
+      "truth_signed_change_db": 0.37901239627424377,
+      "prediction_signed_change_db": 0.2673697240393601,
+      "prediction_correlation": 0.7780358664296358,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.705302101030007,
+      "response_mae_ci95_db": [
+        4.435687866851946,
+        4.9779705760530915
+      ],
+      "zero_mae_db": 9.39048176715907,
+      "beam_mae_db": 4.017225229477621,
+      "improvement_vs_zero_db": 4.685179666129063,
+      "improvement_vs_zero_ci95_db": [
+        4.314028213628065,
+        5.051021387121306
+      ],
+      "improvement_vs_beam_db": -0.6880768715523864,
+      "improvement_vs_beam_ci95_db": [
+        -0.8170512152550847,
+        -0.5538678492040471
+      ],
+      "relative_improvement_vs_zero": 0.4989285728144791,
+      "truth_abs_change_db": 9.39048176715907,
+      "prediction_abs_change_db": 8.22865123801823,
+      "truth_signed_change_db": 1.2393528479329898,
+      "prediction_signed_change_db": 0.4287520206955696,
+      "prediction_correlation": 0.776623293438457,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.713073666003728,
+      "response_mae_ci95_db": [
+        4.44511217260941,
+        4.98471715348067
+      ],
+      "zero_mae_db": 9.392862978187889,
+      "beam_mae_db": 4.016285394907911,
+      "improvement_vs_zero_db": 4.679789312184161,
+      "improvement_vs_zero_ci95_db": [
+        4.311964403385278,
+        5.042093871283876
+      ],
+      "improvement_vs_beam_db": -0.6967882710958175,
+      "improvement_vs_beam_ci95_db": [
+        -0.8267283875342419,
+        -0.5619428916538413
+      ],
+      "relative_improvement_vs_zero": 0.49822821040310816,
+      "truth_abs_change_db": 9.392862978187889,
+      "prediction_abs_change_db": 8.246200492996605,
+      "truth_signed_change_db": 1.2721034832737685,
+      "prediction_signed_change_db": 0.441651385883228,
+      "prediction_correlation": 0.777107573847213,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.4855265487353457,
+      "response_mae_ci95_db": [
+        2.3196298907680037,
+        2.653699409878279
+      ],
+      "zero_mae_db": 4.99248123557356,
+      "beam_mae_db": 2.2517191900684703,
+      "improvement_vs_zero_db": 2.5069546868382147,
+      "improvement_vs_zero_ci95_db": [
+        2.3479867423085863,
+        2.661449040619955
+      ],
+      "improvement_vs_beam_db": -0.2338073586668754,
+      "improvement_vs_beam_ci95_db": [
+        -0.29262565891579545,
+        -0.17113206099688497
+      ],
+      "relative_improvement_vs_zero": 0.5021460409255205,
+      "truth_abs_change_db": 4.99248123557356,
+      "prediction_abs_change_db": 4.051466772455134,
+      "truth_signed_change_db": 0.4808541419529404,
+      "prediction_signed_change_db": 0.2717477665143595,
+      "prediction_correlation": 0.773606246607619,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.238512399468985,
+      "response_mae_ci95_db": [
+        4.943013659604363,
+        5.53588612608392
+      ],
+      "zero_mae_db": 11.159597888774467,
+      "beam_mae_db": 4.265342304001419,
+      "improvement_vs_zero_db": 5.921085489305482,
+      "improvement_vs_zero_ci95_db": [
+        5.534599294155646,
+        6.30161067713497
+      ],
+      "improvement_vs_beam_db": -0.9731700954675659,
+      "improvement_vs_beam_ci95_db": [
+        -1.1061158583850603,
+        -0.8344177314178782
+      ],
+      "relative_improvement_vs_zero": 0.5305823335499885,
+      "truth_abs_change_db": 11.159597888774467,
+      "prediction_abs_change_db": 9.68748689130466,
+      "truth_signed_change_db": 2.1837566231208476,
+      "prediction_signed_change_db": 0.7498055213634757,
+      "prediction_correlation": 0.8026483711330069,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.70130745878355,
+      "response_mae_ci95_db": [
+        10.607464879019508,
+        10.800165687763803
+      ],
+      "zero_mae_db": 15.386097214520381,
+      "beam_mae_db": 6.836078786173587,
+      "improvement_vs_zero_db": 4.684789755736832,
+      "improvement_vs_zero_ci95_db": [
+        4.51515164182251,
+        4.84909483913096
+      ],
+      "improvement_vs_beam_db": -3.8652286726099625,
+      "improvement_vs_beam_ci95_db": [
+        -4.261382408267595,
+        -3.4621483549093037
+      ],
+      "relative_improvement_vs_zero": 0.3044820067375914,
+      "truth_abs_change_db": 15.386097214520381,
+      "prediction_abs_change_db": 9.12292518898631,
+      "truth_signed_change_db": -14.886173275732494,
+      "prediction_signed_change_db": -6.260166100355659,
+      "prediction_correlation": 0.5940562285125409,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": -28,
+      "array2": 32,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.27572642552111,
+      "response_mae_ci95_db": [
+        11.173549908557552,
+        11.378050055136866
+      ],
+      "zero_mae_db": 16.127948470258502,
+      "beam_mae_db": 6.900763972437393,
+      "improvement_vs_zero_db": 4.852222044737392,
+      "improvement_vs_zero_ci95_db": [
+        4.674079513988676,
+        5.021634747118148
+      ],
+      "improvement_vs_beam_db": -4.374962453083717,
+      "improvement_vs_beam_ci95_db": [
+        -4.78640432265314,
+        -3.9533333459197784
+      ],
+      "relative_improvement_vs_zero": 0.30085798287893584,
+      "truth_abs_change_db": 16.127948470258502,
+      "prediction_abs_change_db": 9.196960270859185,
+      "truth_signed_change_db": -15.708149629764979,
+      "prediction_signed_change_db": -6.353723673730121,
+      "prediction_correlation": 0.5877969234840109,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": -21,
+      "array2": 32,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.659292945935904,
+      "response_mae_ci95_db": [
+        10.56607452514251,
+        10.754599386076077
+      ],
+      "zero_mae_db": 15.225308990892529,
+      "beam_mae_db": 6.854963895154721,
+      "improvement_vs_zero_db": 4.5660160449566245,
+      "improvement_vs_zero_ci95_db": [
+        4.405587997170195,
+        4.72236711978841
+      ],
+      "improvement_vs_beam_db": -3.8043290507811838,
+      "improvement_vs_beam_ci95_db": [
+        -4.195665659074259,
+        -3.396859506901886
+      ],
+      "relative_improvement_vs_zero": 0.29989644529959447,
+      "truth_abs_change_db": 15.225308990892529,
+      "prediction_abs_change_db": 8.986910417533238,
+      "truth_signed_change_db": -14.70895482425692,
+      "prediction_signed_change_db": -6.0952368206910865,
+      "prediction_correlation": 0.60117551664241,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": -14,
+      "array2": 32,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.28670538683011,
+      "response_mae_ci95_db": [
+        11.190501107298262,
+        11.381946763550056
+      ],
+      "zero_mae_db": 16.27505538785137,
+      "beam_mae_db": 6.983045581266566,
+      "improvement_vs_zero_db": 4.98835000102126,
+      "improvement_vs_zero_ci95_db": [
+        4.811432449317413,
+        5.157272104528146
+      ],
+      "improvement_vs_beam_db": -4.303659805563544,
+      "improvement_vs_beam_ci95_db": [
+        -4.718178673937114,
+        -3.866045053231192
+      ],
+      "relative_improvement_vs_zero": 0.30650279720367946,
+      "truth_abs_change_db": 16.27505538785137,
+      "prediction_abs_change_db": 9.221914533140467,
+      "truth_signed_change_db": -15.849662848462245,
+      "prediction_signed_change_db": -6.488204178474673,
+      "prediction_correlation": 0.5958665174648119,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": -7,
+      "array2": 32,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.618460631954063,
+      "response_mae_ci95_db": [
+        10.5294983926461,
+        10.706500407338444
+      ],
+      "zero_mae_db": 15.161795502742285,
+      "beam_mae_db": 6.858689848097924,
+      "improvement_vs_zero_db": 4.543334870788222,
+      "improvement_vs_zero_ci95_db": [
+        4.388748554268322,
+        4.693379593178764
+      ],
+      "improvement_vs_beam_db": -3.7597707838561387,
+      "improvement_vs_beam_ci95_db": [
+        -4.155087620288576,
+        -3.3489690063460253
+      ],
+      "relative_improvement_vs_zero": 0.2996567833912862,
+      "truth_abs_change_db": 15.161795502742285,
+      "prediction_abs_change_db": 8.980894391934864,
+      "truth_signed_change_db": -14.644274204048486,
+      "prediction_signed_change_db": -6.108165738217583,
+      "prediction_correlation": 0.6026479889539476,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 0
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.237581256111605,
+      "response_mae_ci95_db": [
+        11.14440497182787,
+        11.328986608234567
+      ],
+      "zero_mae_db": 16.242463775312796,
+      "beam_mae_db": 6.973456480272452,
+      "improvement_vs_zero_db": 5.004882519201191,
+      "improvement_vs_zero_ci95_db": [
+        4.833158159776769,
+        5.171008308215312
+      ],
+      "improvement_vs_beam_db": -4.264124775839154,
+      "improvement_vs_beam_ci95_db": [
+        -4.6859136486206365,
+        -3.8258480952872773
+      ],
+      "relative_improvement_vs_zero": 0.30813567377679485,
+      "truth_abs_change_db": 16.242463775312796,
+      "prediction_abs_change_db": 9.21524499117557,
+      "truth_signed_change_db": -15.825637237479091,
+      "prediction_signed_change_db": -6.516187132905178,
+      "prediction_correlation": 0.5941955144258124,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": 7,
+      "array2": 32,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.558320313229022,
+      "response_mae_ci95_db": [
+        10.466019916575545,
+        10.650064388306477
+      ],
+      "zero_mae_db": 15.153036058537008,
+      "beam_mae_db": 6.882521845651711,
+      "improvement_vs_zero_db": 4.594715745307987,
+      "improvement_vs_zero_ci95_db": [
+        4.436924166117504,
+        4.744104941737496
+      ],
+      "improvement_vs_beam_db": -3.6757984675773105,
+      "improvement_vs_beam_ci95_db": [
+        -4.07934988103682,
+        -3.262056305332755
+      ],
+      "relative_improvement_vs_zero": 0.3032208019276367,
+      "truth_abs_change_db": 15.153036058537008,
+      "prediction_abs_change_db": 9.006891944376687,
+      "truth_signed_change_db": -14.632654302155947,
+      "prediction_signed_change_db": -6.185550711201865,
+      "prediction_correlation": 0.601259478212507,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": 14,
+      "array2": 32,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.172963312413305,
+      "response_mae_ci95_db": [
+        11.08104599821911,
+        11.263412649695814
+      ],
+      "zero_mae_db": 16.035915836965756,
+      "beam_mae_db": 6.946848252386568,
+      "improvement_vs_zero_db": 4.862952524552451,
+      "improvement_vs_zero_ci95_db": [
+        4.685021969417997,
+        5.037769197398829
+      ],
+      "improvement_vs_beam_db": -4.226115060026737,
+      "improvement_vs_beam_ci95_db": [
+        -4.644936931007141,
+        -3.7885700726143705
+      ],
+      "relative_improvement_vs_zero": 0.30325380689155557,
+      "truth_abs_change_db": 16.035915836965756,
+      "prediction_abs_change_db": 9.192146585597772,
+      "truth_signed_change_db": -15.610429711817128,
+      "prediction_signed_change_db": -6.432505355240468,
+      "prediction_correlation": 0.5869700677683053,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "43",
+      "array1": 8,
+      "angle1": 21,
+      "array2": 32,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.812739400318525,
+      "response_mae_ci95_db": [
+        6.569175178213917,
+        7.063113575804415
+      ],
+      "zero_mae_db": 11.62598733177279,
+      "beam_mae_db": 5.456212582394142,
+      "improvement_vs_zero_db": 4.813247931454266,
+      "improvement_vs_zero_ci95_db": [
+        4.510383785602707,
+        5.106143564614078
+      ],
+      "improvement_vs_beam_db": -1.356526817924383,
+      "improvement_vs_beam_ci95_db": [
+        -1.594946650457576,
+        -1.112589230726958
+      ],
+      "relative_improvement_vs_zero": 0.41400767041093256,
+      "truth_abs_change_db": 11.62598733177279,
+      "prediction_abs_change_db": 8.528105266874807,
+      "truth_signed_change_db": 1.875309510133107,
+      "prediction_signed_change_db": 0.7594710204117916,
+      "prediction_correlation": 0.7479306115567361,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.9795605275448205,
+      "response_mae_ci95_db": [
+        5.761002851555011,
+        6.207113128321287
+      ],
+      "zero_mae_db": 9.839585167312308,
+      "beam_mae_db": 4.847623370553805,
+      "improvement_vs_zero_db": 3.860024639767487,
+      "improvement_vs_zero_ci95_db": [
+        3.6033457555251163,
+        4.109823384546063
+      ],
+      "improvement_vs_beam_db": -1.1319371569910155,
+      "improvement_vs_beam_ci95_db": [
+        -1.3407868025900156,
+        -0.9168566767589957
+      ],
+      "relative_improvement_vs_zero": 0.39229546511683444,
+      "truth_abs_change_db": 9.839585167312308,
+      "prediction_abs_change_db": 6.975611843446825,
+      "truth_signed_change_db": 1.0063128238424128,
+      "prediction_signed_change_db": 0.5528878667599793,
+      "prediction_correlation": 0.7253935103500189,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.6027530777428325,
+      "response_mae_ci95_db": [
+        4.4345665144042865,
+        4.7791537360649405
+      ],
+      "zero_mae_db": 7.167605905692852,
+      "beam_mae_db": 3.8187976359560536,
+      "improvement_vs_zero_db": 2.56485282795002,
+      "improvement_vs_zero_ci95_db": [
+        2.385701308710664,
+        2.739358398119482
+      ],
+      "improvement_vs_beam_db": -0.7839554417867789,
+      "improvement_vs_beam_ci95_db": [
+        -0.9508602894818541,
+        -0.6105600598197917
+      ],
+      "relative_improvement_vs_zero": 0.3578395438723678,
+      "truth_abs_change_db": 7.167605905692852,
+      "prediction_abs_change_db": 4.8895012697796245,
+      "truth_signed_change_db": 0.3143317760658095,
+      "prediction_signed_change_db": 0.28029864156585677,
+      "prediction_correlation": 0.6966248295390007,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 3.003537877269635,
+      "response_mae_ci95_db": [
+        2.882186704027605,
+        3.1295537459432734
+      ],
+      "zero_mae_db": 4.2324444389455875,
+      "beam_mae_db": 2.4656527075221404,
+      "improvement_vs_zero_db": 1.2289065616759527,
+      "improvement_vs_zero_ci95_db": [
+        1.1267864082029524,
+        1.3269497536991541
+      ],
+      "improvement_vs_beam_db": -0.5378851697474945,
+      "improvement_vs_beam_ci95_db": [
+        -0.6355661155896322,
+        -0.4360356450594571
+      ],
+      "relative_improvement_vs_zero": 0.29035385565087424,
+      "truth_abs_change_db": 4.2324444389455875,
+      "prediction_abs_change_db": 2.8369231245678974,
+      "truth_signed_change_db": 0.03396420351923145,
+      "prediction_signed_change_db": 0.04871358043847856,
+      "prediction_correlation": 0.6502066164047484,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.9914192598530867,
+      "response_mae_ci95_db": [
+        2.8685122588667507,
+        3.1224409791964605
+      ],
+      "zero_mae_db": 4.24919146241105,
+      "beam_mae_db": 2.4834554971055463,
+      "improvement_vs_zero_db": 1.257772202557963,
+      "improvement_vs_zero_ci95_db": [
+        1.1539072485089188,
+        1.3592246850807044
+      ],
+      "improvement_vs_beam_db": -0.5079637627475404,
+      "improvement_vs_beam_ci95_db": [
+        -0.6058883061095294,
+        -0.40560867791139277
+      ],
+      "relative_improvement_vs_zero": 0.2960027133830976,
+      "truth_abs_change_db": 4.24919146241105,
+      "prediction_abs_change_db": 2.8702792861363893,
+      "truth_signed_change_db": 0.09074044984316323,
+      "prediction_signed_change_db": 0.03362999119563333,
+      "prediction_correlation": 0.6506969706187711,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.624319265469812,
+      "response_mae_ci95_db": [
+        4.4565258100615885,
+        4.795630648573637
+      ],
+      "zero_mae_db": 7.193190236000703,
+      "beam_mae_db": 3.8401743407373616,
+      "improvement_vs_zero_db": 2.5688709705308908,
+      "improvement_vs_zero_ci95_db": [
+        2.388877710099561,
+        2.7450277900302433
+      ],
+      "improvement_vs_beam_db": -0.7841449247324506,
+      "improvement_vs_beam_ci95_db": [
+        -0.9523372854098341,
+        -0.6096179720457074
+      ],
+      "relative_improvement_vs_zero": 0.3571254042016191,
+      "truth_abs_change_db": 7.193190236000703,
+      "prediction_abs_change_db": 4.902203782969674,
+      "truth_signed_change_db": 0.4924740438454805,
+      "prediction_signed_change_db": 0.19436279353007752,
+      "prediction_correlation": 0.6945470318001534,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.02798115840144,
+      "response_mae_ci95_db": [
+        5.804865762007762,
+        6.256133542575455
+      ],
+      "zero_mae_db": 9.895033798270916,
+      "beam_mae_db": 4.878817058474997,
+      "improvement_vs_zero_db": 3.867052639869476,
+      "improvement_vs_zero_ci95_db": [
+        3.610429807915495,
+        4.118343674640435
+      ],
+      "improvement_vs_beam_db": -1.149164099926443,
+      "improvement_vs_beam_ci95_db": [
+        -1.3607290768433034,
+        -0.9291047681330182
+      ],
+      "relative_improvement_vs_zero": 0.39080742104642585,
+      "truth_abs_change_db": 9.895033798270916,
+      "prediction_abs_change_db": 6.950948633860977,
+      "truth_signed_change_db": 1.2176011153522062,
+      "prediction_signed_change_db": 0.4254659043405903,
+      "prediction_correlation": 0.725426579222734,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.389243645758716,
+      "response_mae_ci95_db": [
+        4.162512099592194,
+        4.62187241525258
+      ],
+      "zero_mae_db": 9.073514930876524,
+      "beam_mae_db": 3.5125930897160025,
+      "improvement_vs_zero_db": 4.684271285117807,
+      "improvement_vs_zero_ci95_db": [
+        4.414821251005885,
+        4.947145577481625
+      ],
+      "improvement_vs_beam_db": -0.8766505560427138,
+      "improvement_vs_beam_ci95_db": [
+        -0.9894997801688034,
+        -0.7594427189232474
+      ],
+      "relative_improvement_vs_zero": 0.5162576268186396,
+      "truth_abs_change_db": 9.073514930876524,
+      "prediction_abs_change_db": 7.597444694758872,
+      "truth_signed_change_db": 2.1172085818171156,
+      "prediction_signed_change_db": 0.9469261072841058,
+      "prediction_correlation": 0.8052877290490017,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.470988531247609,
+      "response_mae_ci95_db": [
+        5.187222248289467,
+        5.758788059446615
+      ],
+      "zero_mae_db": 11.160139297734268,
+      "beam_mae_db": 4.254844702400852,
+      "improvement_vs_zero_db": 5.68915076648666,
+      "improvement_vs_zero_ci95_db": [
+        5.319031588712402,
+        6.052492984898727
+      ],
+      "improvement_vs_beam_db": -1.2161438288467563,
+      "improvement_vs_beam_ci95_db": [
+        -1.3586794532732092,
+        -1.0705025926999632
+      ],
+      "relative_improvement_vs_zero": 0.5097741716935085,
+      "truth_abs_change_db": 11.160139297734268,
+      "prediction_abs_change_db": 9.519371687040088,
+      "truth_signed_change_db": 2.070188249558902,
+      "prediction_signed_change_db": 0.7110912349266185,
+      "prediction_correlation": 0.7939440690376361,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.462421058158829,
+      "response_mae_ci95_db": [
+        2.2995498019766383,
+        2.6328954618036633
+      ],
+      "zero_mae_db": 4.967742903240499,
+      "beam_mae_db": 2.2376837153772215,
+      "improvement_vs_zero_db": 2.50532184508167,
+      "improvement_vs_zero_ci95_db": [
+        2.3445682270152504,
+        2.660699251816078
+      ],
+      "improvement_vs_beam_db": -0.22473734278160729,
+      "improvement_vs_beam_ci95_db": [
+        -0.28253959324195477,
+        -0.1642246900007687
+      ],
+      "relative_improvement_vs_zero": 0.5043179355049611,
+      "truth_abs_change_db": 4.967742903240499,
+      "prediction_abs_change_db": 4.051439603101403,
+      "truth_signed_change_db": 0.37901239627424377,
+      "prediction_signed_change_db": 0.2618968581729572,
+      "prediction_correlation": 0.7771812413816523,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.000680664299229,
+      "response_mae_ci95_db": [
+        4.746228666885625,
+        5.256861455000535
+      ],
+      "zero_mae_db": 9.39048176715907,
+      "beam_mae_db": 4.017225229477621,
+      "improvement_vs_zero_db": 4.389801102859841,
+      "improvement_vs_zero_ci95_db": [
+        4.034844818241675,
+        4.738595835523226
+      ],
+      "improvement_vs_beam_db": -0.9834554348216082,
+      "improvement_vs_beam_ci95_db": [
+        -1.126688038157575,
+        -0.836348394142575
+      ],
+      "relative_improvement_vs_zero": 0.46747347065963163,
+      "truth_abs_change_db": 9.39048176715907,
+      "prediction_abs_change_db": 8.07732975980747,
+      "truth_signed_change_db": 1.2393528479329898,
+      "prediction_signed_change_db": 0.34077410100455996,
+      "prediction_correlation": 0.7643913221049811,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.014170517793279,
+      "response_mae_ci95_db": [
+        4.761308984965566,
+        5.2704227016856136
+      ],
+      "zero_mae_db": 9.392862978187889,
+      "beam_mae_db": 4.016285394907911,
+      "improvement_vs_zero_db": 4.37869246039461,
+      "improvement_vs_zero_ci95_db": [
+        4.0264427659824795,
+        4.727460953839016
+      ],
+      "improvement_vs_beam_db": -0.9978851228853687,
+      "improvement_vs_beam_ci95_db": [
+        -1.1412732102679846,
+        -0.8507999491517408
+      ],
+      "relative_improvement_vs_zero": 0.4661722917243455,
+      "truth_abs_change_db": 9.392862978187889,
+      "prediction_abs_change_db": 8.103659110131215,
+      "truth_signed_change_db": 1.2721034832737685,
+      "prediction_signed_change_db": 0.3791052366126605,
+      "prediction_correlation": 0.764231453771925,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_interpolation",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 2.491925262598168,
+      "response_mae_ci95_db": [
+        2.3264819437301587,
+        2.659327849224448
+      ],
+      "zero_mae_db": 4.99248123557356,
+      "beam_mae_db": 2.2517191900684703,
+      "improvement_vs_zero_db": 2.5005559729753926,
+      "improvement_vs_zero_ci95_db": [
+        2.341602458285982,
+        2.6554152794802133
+      ],
+      "improvement_vs_beam_db": -0.2402060725296975,
+      "improvement_vs_beam_ci95_db": [
+        -0.2998884479022041,
+        -0.17700787131454632
+      ],
+      "relative_improvement_vs_zero": 0.500864370837864,
+      "truth_abs_change_db": 4.99248123557356,
+      "prediction_abs_change_db": 4.057507682909131,
+      "truth_signed_change_db": 0.4808541419529404,
+      "prediction_signed_change_db": 0.29721354522470217,
+      "prediction_correlation": 0.7729022169898225,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_seen",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 5.529149681317189,
+      "response_mae_ci95_db": [
+        5.246115200846149,
+        5.8133782484611025
+      ],
+      "zero_mae_db": 11.159597888774467,
+      "beam_mae_db": 4.265342304001419,
+      "improvement_vs_zero_db": 5.630448207457278,
+      "improvement_vs_zero_ci95_db": [
+        5.2572206749394645,
+        5.9961152880991
+      ],
+      "improvement_vs_beam_db": -1.2638073773157696,
+      "improvement_vs_beam_ci95_db": [
+        -1.4083107621432478,
+        -1.1142445467443687
+      ],
+      "relative_improvement_vs_zero": 0.5045386279662454,
+      "truth_abs_change_db": 11.159597888774467,
+      "prediction_abs_change_db": 9.545529684887052,
+      "truth_signed_change_db": 2.1837566231208476,
+      "prediction_signed_change_db": 0.7186666469688724,
+      "prediction_correlation": 0.792121027892631,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_extrapolation",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 8,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.38278916319725,
+      "response_mae_ci95_db": [
+        10.29315148573058,
+        10.476047594818338
+      ],
+      "zero_mae_db": 15.386097214520381,
+      "beam_mae_db": 6.836078786173587,
+      "improvement_vs_zero_db": 5.003308051323131,
+      "improvement_vs_zero_ci95_db": [
+        4.833331956354254,
+        5.168927107612881
+      ],
+      "improvement_vs_beam_db": -3.546710377023663,
+      "improvement_vs_beam_ci95_db": [
+        -3.9362902017310533,
+        -3.1495977048232247
+      ],
+      "relative_improvement_vs_zero": 0.32518370198527924,
+      "truth_abs_change_db": 15.386097214520381,
+      "prediction_abs_change_db": 9.121488494864309,
+      "truth_signed_change_db": -14.886173275732494,
+      "prediction_signed_change_db": -6.636681479275815,
+      "prediction_correlation": 0.5927347023671269,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": -28,
+      "array2": 32,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.011864754015743,
+      "response_mae_ci95_db": [
+        10.913711240538781,
+        11.110572646034633
+      ],
+      "zero_mae_db": 16.127948470258502,
+      "beam_mae_db": 6.900763972437393,
+      "improvement_vs_zero_db": 5.116083716242759,
+      "improvement_vs_zero_ci95_db": [
+        4.937156790278027,
+        5.286446981862592
+      ],
+      "improvement_vs_beam_db": -4.11110078157835,
+      "improvement_vs_beam_ci95_db": [
+        -4.517786058328659,
+        -3.6919026466196163
+      ],
+      "relative_improvement_vs_zero": 0.3172185058550573,
+      "truth_abs_change_db": 16.127948470258502,
+      "prediction_abs_change_db": 9.196183872234531,
+      "truth_signed_change_db": -15.708149629764979,
+      "prediction_signed_change_db": -6.657746681786511,
+      "prediction_correlation": 0.5854667071921001,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": -21,
+      "array2": 32,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.375101854268229,
+      "response_mae_ci95_db": [
+        10.28726467696631,
+        10.467057059553026
+      ],
+      "zero_mae_db": 15.225308990892529,
+      "beam_mae_db": 6.854963895154721,
+      "improvement_vs_zero_db": 4.8502071366243005,
+      "improvement_vs_zero_ci95_db": [
+        4.6846700029206,
+        5.011601279437793
+      ],
+      "improvement_vs_beam_db": -3.520137959113508,
+      "improvement_vs_beam_ci95_db": [
+        -3.902821989780318,
+        -3.1232503325985683
+      ],
+      "relative_improvement_vs_zero": 0.31856214803427607,
+      "truth_abs_change_db": 15.225308990892529,
+      "prediction_abs_change_db": 9.032351880633659,
+      "truth_signed_change_db": -14.70895482425692,
+      "prediction_signed_change_db": -6.465141951997408,
+      "prediction_correlation": 0.5957611590981714,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": -14,
+      "array2": 32,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.060633206726331,
+      "response_mae_ci95_db": [
+        10.966620651872278,
+        11.155785247111805
+      ],
+      "zero_mae_db": 16.27505538785137,
+      "beam_mae_db": 6.983045581266566,
+      "improvement_vs_zero_db": 5.214422181125039,
+      "improvement_vs_zero_ci95_db": [
+        5.035108560988458,
+        5.388179489259897
+      ],
+      "improvement_vs_beam_db": -4.077587625459765,
+      "improvement_vs_beam_ci95_db": [
+        -4.488081424891035,
+        -3.6462366185300015
+      ],
+      "relative_improvement_vs_zero": 0.32039351368459124,
+      "truth_abs_change_db": 16.27505538785137,
+      "prediction_abs_change_db": 9.243538091587927,
+      "truth_signed_change_db": -15.849662848462245,
+      "prediction_signed_change_db": -6.7702261424027625,
+      "prediction_correlation": 0.5903534082974714,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": -7,
+      "array2": 32,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.378948050006738,
+      "response_mae_ci95_db": [
+        10.290810133148309,
+        10.46699815891423
+      ],
+      "zero_mae_db": 15.161795502742285,
+      "beam_mae_db": 6.858689848097924,
+      "improvement_vs_zero_db": 4.782847452735547,
+      "improvement_vs_zero_ci95_db": [
+        4.622597523689237,
+        4.9366126591287856
+      ],
+      "improvement_vs_beam_db": -3.5202582019088133,
+      "improvement_vs_beam_ci95_db": [
+        -3.910480799100781,
+        -3.1125524289808113
+      ],
+      "relative_improvement_vs_zero": 0.3154538954090551,
+      "truth_abs_change_db": 15.161795502742285,
+      "prediction_abs_change_db": 9.013323906986958,
+      "truth_signed_change_db": -14.644274204048486,
+      "prediction_signed_change_db": -6.418958643131852,
+      "prediction_correlation": 0.5952835874991003,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 0
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 11.030550093243916,
+      "response_mae_ci95_db": [
+        10.937562940858,
+        11.122950764339407
+      ],
+      "zero_mae_db": 16.242463775312796,
+      "beam_mae_db": 6.973456480272452,
+      "improvement_vs_zero_db": 5.2119136820688805,
+      "improvement_vs_zero_ci95_db": [
+        5.038355274020842,
+        5.380599611000236
+      ],
+      "improvement_vs_beam_db": -4.057093612971464,
+      "improvement_vs_beam_ci95_db": [
+        -4.477813447170075,
+        -3.6195513767260388
+      ],
+      "relative_improvement_vs_zero": 0.3208819643477093,
+      "truth_abs_change_db": 16.242463775312796,
+      "prediction_abs_change_db": 9.20932350206775,
+      "truth_signed_change_db": -15.825637237479091,
+      "prediction_signed_change_db": -6.745656427293078,
+      "prediction_correlation": 0.5901409276500592,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 7,
+      "array2": 32,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.311756304714327,
+      "response_mae_ci95_db": [
+        10.22381843671353,
+        10.400124728723172
+      ],
+      "zero_mae_db": 15.153036058537008,
+      "beam_mae_db": 6.882521845651711,
+      "improvement_vs_zero_db": 4.841279753822681,
+      "improvement_vs_zero_ci95_db": [
+        4.674887167788675,
+        4.999113720095366
+      ],
+      "improvement_vs_beam_db": -3.4292344590626165,
+      "improvement_vs_beam_ci95_db": [
+        -3.825512889377349,
+        -3.024793031725897
+      ],
+      "relative_improvement_vs_zero": 0.3194923931495016,
+      "truth_abs_change_db": 15.153036058537008,
+      "prediction_abs_change_db": 9.04934963312744,
+      "truth_signed_change_db": -14.632654302155947,
+      "prediction_signed_change_db": -6.5026454485758505,
+      "prediction_correlation": 0.5947362326364518,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_seen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 14,
+      "array2": 32,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 10.92433320653142,
+      "response_mae_ci95_db": [
+        10.833284896508866,
+        11.013685942253858
+      ],
+      "zero_mae_db": 16.035915836965756,
+      "beam_mae_db": 6.946848252386568,
+      "improvement_vs_zero_db": 5.111582630434336,
+      "improvement_vs_zero_ci95_db": [
+        4.932135133441948,
+        5.286707666952413
+      ],
+      "improvement_vs_beam_db": -3.9774849541448525,
+      "improvement_vs_beam_ci95_db": [
+        -4.393963558032227,
+        -3.542495638247528
+      ],
+      "relative_improvement_vs_zero": 0.31875838476597584,
+      "truth_abs_change_db": 16.035915836965756,
+      "prediction_abs_change_db": 9.19458116578845,
+      "truth_signed_change_db": -15.610429711817128,
+      "prediction_signed_change_db": -6.699450270822203,
+      "prediction_correlation": 0.5840286683773466,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "array_unseen_angle",
+      "models": "42,43",
+      "array1": 8,
+      "angle1": 21,
+      "array2": 32,
+      "angle2": 21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.859890296638644,
+      "response_mae_ci95_db": [
+        6.619837193587498,
+        7.1085879574264
+      ],
+      "zero_mae_db": 11.62598733177279,
+      "beam_mae_db": 5.456212582394142,
+      "improvement_vs_zero_db": 4.7660970351341465,
+      "improvement_vs_zero_ci95_db": [
+        4.465602951593663,
+        5.055840388046371
+      ],
+      "improvement_vs_beam_db": -1.4036777142445027,
+      "improvement_vs_beam_ci95_db": [
+        -1.6430617145175095,
+        -1.155905146503336
+      ],
+      "relative_improvement_vs_zero": 0.4099520237828599,
+      "truth_abs_change_db": 11.62598733177279,
+      "prediction_abs_change_db": 8.39694562358687,
+      "truth_signed_change_db": 1.875309510133107,
+      "prediction_signed_change_db": 0.7292032711401433,
+      "prediction_correlation": 0.7476169839416649,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42,43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -28
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.032947294563449,
+      "response_mae_ci95_db": [
+        5.81719940345877,
+        6.258842558265103
+      ],
+      "zero_mae_db": 9.839585167312308,
+      "beam_mae_db": 4.847623370553805,
+      "improvement_vs_zero_db": 3.8066378727488583,
+      "improvement_vs_zero_ci95_db": [
+        3.552121351003824,
+        4.054026621924977
+      ],
+      "improvement_vs_beam_db": -1.1853239240096443,
+      "improvement_vs_beam_ci95_db": [
+        -1.39649139798197,
+        -0.9664605099044742
+      ],
+      "relative_improvement_vs_zero": 0.38686975192762574,
+      "truth_abs_change_db": 9.839585167312308,
+      "prediction_abs_change_db": 6.850436885422387,
+      "truth_signed_change_db": 1.0063128238424128,
+      "prediction_signed_change_db": 0.4723031962719597,
+      "prediction_correlation": 0.7241602222161077,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42,43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -21
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.644660843644067,
+      "response_mae_ci95_db": [
+        4.476939076757514,
+        4.819325094950971
+      ],
+      "zero_mae_db": 7.167605905692852,
+      "beam_mae_db": 3.8187976359560536,
+      "improvement_vs_zero_db": 2.5229450620487857,
+      "improvement_vs_zero_ci95_db": [
+        2.3459199723266013,
+        2.696284284977125
+      ],
+      "improvement_vs_beam_db": -0.825863207688013,
+      "improvement_vs_beam_ci95_db": [
+        -0.9940470308465527,
+        -0.6529081022465092
+      ],
+      "relative_improvement_vs_zero": 0.3519927148959101,
+      "truth_abs_change_db": 7.167605905692852,
+      "prediction_abs_change_db": 4.83290506661903,
+      "truth_signed_change_db": 0.3143317760658095,
+      "prediction_signed_change_db": 0.2157135493074022,
+      "prediction_correlation": 0.6939220845125156,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "42,43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 3.036894993065819,
+      "response_mae_ci95_db": [
+        2.9165479545566697,
+        3.161811481814415
+      ],
+      "zero_mae_db": 4.2324444389455875,
+      "beam_mae_db": 2.4656527075221404,
+      "improvement_vs_zero_db": 1.1955494458797684,
+      "improvement_vs_zero_ci95_db": [
+        1.0946529084561967,
+        1.293053036609081
+      ],
+      "improvement_vs_beam_db": -0.5712422855436787,
+      "improvement_vs_beam_ci95_db": [
+        -0.6698038806104254,
+        -0.4693903413801364
+      ],
+      "relative_improvement_vs_zero": 0.2824725671242624,
+      "truth_abs_change_db": 4.2324444389455875,
+      "prediction_abs_change_db": 2.823556859112904,
+      "truth_signed_change_db": 0.03396420351923145,
+      "prediction_signed_change_db": -0.010493398266349442,
+      "prediction_correlation": 0.6453787141938381,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42,43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": -7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 3.0217308978403885,
+      "response_mae_ci95_db": [
+        2.8988994475152654,
+        3.1526595656821095
+      ],
+      "zero_mae_db": 4.24919146241105,
+      "beam_mae_db": 2.4834554971055463,
+      "improvement_vs_zero_db": 1.227460564570661,
+      "improvement_vs_zero_ci95_db": [
+        1.1239940129095982,
+        1.328633060157397
+      ],
+      "improvement_vs_beam_db": -0.5382754007348423,
+      "improvement_vs_beam_ci95_db": [
+        -0.6363673733869951,
+        -0.4355912901261107
+      ],
+      "relative_improvement_vs_zero": 0.2888692061605017,
+      "truth_abs_change_db": 4.24919146241105,
+      "prediction_abs_change_db": 2.8250441764073835,
+      "truth_signed_change_db": 0.09074044984316323,
+      "prediction_signed_change_db": 0.05240745245143645,
+      "prediction_correlation": 0.6460131588542314,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42,43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 7
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 4.67689955520787,
+      "response_mae_ci95_db": [
+        4.511762148112705,
+        4.846619906907081
+      ],
+      "zero_mae_db": 7.193190236000703,
+      "beam_mae_db": 3.8401743407373616,
+      "improvement_vs_zero_db": 2.5162906807928334,
+      "improvement_vs_zero_ci95_db": [
+        2.3384040201568843,
+        2.6908897012588238
+      ],
+      "improvement_vs_beam_db": -0.836725214470508,
+      "improvement_vs_beam_ci95_db": [
+        -1.0059821887482534,
+        -0.6611438932461484
+      ],
+      "relative_improvement_vs_zero": 0.3498156726342678,
+      "truth_abs_change_db": 7.193190236000703,
+      "prediction_abs_change_db": 4.835058816368925,
+      "truth_signed_change_db": 0.4924740438454805,
+      "prediction_signed_change_db": 0.21352673978070444,
+      "prediction_correlation": 0.6896668522531296,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_seen_angle",
+      "models": "42,43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 14
+    },
+    {
+      "scene_count": 160,
+      "response_mae_db": 6.074728507966533,
+      "response_mae_ci95_db": [
+        5.854838922901435,
+        6.300554580261816
+      ],
+      "zero_mae_db": 9.895033798270916,
+      "beam_mae_db": 4.878817058474997,
+      "improvement_vs_zero_db": 3.8203052903043826,
+      "improvement_vs_zero_ci95_db": [
+        3.567039119256794,
+        4.068833966652808
+      ],
+      "improvement_vs_beam_db": -1.1959114494915362,
+      "improvement_vs_beam_ci95_db": [
+        -1.408861990631929,
+        -0.9738400171974053
+      ],
+      "relative_improvement_vs_zero": 0.3860830966511658,
+      "truth_abs_change_db": 9.895033798270916,
+      "prediction_abs_change_db": 6.846725108987101,
+      "truth_signed_change_db": 1.2176011153522062,
+      "prediction_signed_change_db": 0.4381750192785222,
+      "prediction_correlation": 0.7232000815909859,
+      "correlation_defined_scenes": 160,
+      "valid_fraction": 0.9236053466796875,
+      "group": "angle_32_unseen_angle",
+      "models": "42,43",
+      "array1": 32,
+      "angle1": 0,
+      "array2": 32,
+      "angle2": 21
+    }
+  ],
+  "split_reference": "splits/scene_ids_seed42.json"
+}
