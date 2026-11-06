@@ -16,7 +16,106 @@ A **会响应未见 Beam，且其预测变化并非接近零**。但在本次 U6
 - **随机性**：每个场景四次 Matérn 抽样；在同一场景、同一次抽样内，所有目标配置复用完全相同的初始场。两套模型使用独立训练种子；四次内部抽样不是四次独立训练。
 - **预测与计分**：每个场景的全部配置先完成无标签推理，再加载真实图。使用两张真实图均有效的像素交集，按场景、角度、抽样和训练种子等权汇总；平均有效区域占 92.36%。
 
-对一对配置，记 $\Delta y=y_2-y_1$、$\Delta\hat y=\hat y_2-\hat y_1$，单位均为 dB。主要指标是 $\operatorname{mean}|\Delta\hat y-\Delta y|$，下称 **Response MAE**；“零变化”令预测变化为 0，“Beam 差值”直接使用经过模型相同裁剪预处理后的 $\Delta B$。两者只检验**变化量**，并非无需参考绝对功率就能输出完整目标 Radio Map 的独立模型。
+对一对配置，记 $\Delta y=y_2-y_1$、 $\Delta\hat y=\hat y_2-\hat y_1$，单位均为 dB。主要指标是 $\operatorname{mean}|\Delta\hat y-\Delta y|$，下称 **Response MAE**；“零变化”令预测变化为 0，“Beam 差值”直接使用经过模型相同裁剪预处理后的 $\Delta B$。两者只检验**变化量**，并非无需参考绝对功率就能输出完整目标 Radio Map 的独立模型。
+
+## 响应指标的公式与汇总
+
+### 配对预测与有效区域
+
+固定场景 $s$、Tx、建筑高度、训练检查点 $k$ 和噪声抽样 $d$，选择两个目标配置 $c_1,c_2$。在两次推理中使用完全相同的初始场 $z_{s,d}$，但分别输入对应的目标 Beam：
+
+$$
+\hat Y_j=\mathcal G_{\theta_k}(T_s,H_s,B_j,z_{s,d}),\qquad j\in\{1,2\}.
+$$
+
+这里 $\mathcal G_{\theta_k}$ 表示完整推理流水线：Beam 裁剪、归一化与插值，8 步 Euler 生成，以及输出的下采样与反归一化。因此上式的 $\hat Y_j$ 是 dB 值，并非把 dB 直接作为网络通道。
+
+$Y_1,Y_2$ 在推理结束后读取，用于离线计分。预测图经 $256\rightarrow128$ 双线性下采样和反归一化得到 dB 值；预测值不额外裁剪。Beam 基线使用模型输入相同的裁剪：
+
+$$
+B_j=\operatorname{clip}(B_j^{\mathrm{raw}},-300,0).
+$$
+
+两张标签共同有效的原始 $128\times128$ 网格集合为
+
+$$
+\mathcal M_{s,p}
+=\{i:-300<Y_{1,i}<0\ \land\ -300<Y_{2,i}<0\},
+$$
+
+其中 $p=(c_1,c_2)$。有效集合由标签确定，**只用于评分**，不作为模型的输入。
+
+### 变化量、三种误差及幅度
+
+所有变化量均为 dB 差：
+
+$$
+\Delta Y_i=Y_{2,i}-Y_{1,i},\qquad
+\Delta\hat Y_i=\hat Y_{2,i}-\hat Y_{1,i},\qquad
+\Delta B_i=B_{2,i}-B_{1,i}.
+$$
+
+对同一个场景、配置对、检查点和抽样，三种方法使用完全相同的有效区域：
+
+$$
+E_{\mathrm A}
+=\frac1{|\mathcal M|}\sum_{i\in\mathcal M}
+\left|\Delta\hat Y_i-\Delta Y_i\right|,\qquad
+E_{0}
+=\frac1{|\mathcal M|}\sum_{i\in\mathcal M}
+\left|\Delta Y_i\right|,
+$$
+
+$$
+E_{\mathrm B}
+=\frac1{|\mathcal M|}\sum_{i\in\mathcal M}
+\left|\Delta B_i-\Delta Y_i\right|.
+$$
+
+$E_{\mathrm A}$ 是 **Response MAE**， $E_0$ 是预测变化为零时的误差， $E_{\mathrm B}$ 是直接用 Beam 差值预测变化的误差；三者均越小越好。Beam 差值预测的是变化量，不能在没有参考绝对功率的情况下单独生成完整目标 Radio Map。
+
+图 (a) 的真实与预测变化强度是
+
+$$
+A_{\mathrm{true}}
+=\frac1{|\mathcal M|}\sum_{i\in\mathcal M}|\Delta Y_i|,
+\qquad
+A_{\mathrm{pred}}
+=\frac1{|\mathcal M|}\sum_{i\in\mathcal M}|\Delta\hat Y_i|.
+$$
+
+因此 $A_{\mathrm{true}}=E_0$。幅度相近不保证变化的正负或空间位置正确；有符号变化另外计算真实变化和预测变化在有效区域内的平均值。
+
+以本实验裁剪后的 Beam 为参考，定义 $R_j=Y_j-B_j$，则 $\Delta R=\Delta Y-\Delta B$，所以 $E_{\mathrm B}=\operatorname{mean}_{\mathcal M}|\Delta R|$。这个恒等式只描述当前预处理约定下的参考差异； $R$ 不是可唯一分离的建筑反射功率。
+
+### 空间相关与场景级汇总
+
+记 $\overline{\Delta Y}$ 和 $\overline{\Delta\hat Y}$ 为有效区域内的均值，空间 Pearson 相关为
+
+$$
+\operatorname{Corr}(\Delta Y,\Delta\hat Y)=
+\frac{\sum_{i\in\mathcal M}
+(\Delta Y_i-\overline{\Delta Y})
+(\Delta\hat Y_i-\overline{\Delta\hat Y})}
+{\sqrt{\sum_{i\in\mathcal M}(\Delta Y_i-\overline{\Delta Y})^2}
+ \sqrt{\sum_{i\in\mathcal M}(\Delta\hat Y_i-\overline{\Delta\hat Y})^2}}.
+$$
+
+相关系数先逐对计算，再汇总；分母近零时记为空值，并在统计中排除该相关项。
+
+设某测试组的配置对为 $\mathcal P_g$、测试场景为 $\mathcal S$、模型种子集合为 $\mathcal K=\{42,43\}$、每个场景的源抽样次数为 $D=4$。以 A 的误差为例，报告的组均值为
+
+$$
+\bar E_{\mathrm A,g}
+=\frac1{|\mathcal S|}\sum_{s\in\mathcal S}
+\frac1{|\mathcal K|D|\mathcal P_g|}
+\sum_{k\in\mathcal K}\sum_{d=1}^{D}
+\sum_{p\in\mathcal P_g}E_{\mathrm A,s,p,k,d}.
+$$
+
+先在每个场景内对配置对、四次抽样和两个检查点等权平均，再对 160 个场景等权平均。区间使用场景级有放回抽样 10,000 次的 2.5% 与 97.5% 分位数；它只反映这批固定模型与抽样条件下的场景差异。
+
+例如，跨阵列且角度已见组的组均值为 $E_{\mathrm A}=10.355$、 $E_0=15.180$、 $E_{\mathrm B}=6.865$ dB；这些是变化量误差，不能与单张功率图的 MAE 混为一谈。
 
 ## 全部配对结果
 

@@ -15,6 +15,23 @@
 | 均匀 / 可学习 | 均匀分布 | 由 Beam 和梯度生成 |
 | Beam / 可学习 | Beam 与 Beam 梯度构造的固定分布 | 由 Beam 和梯度生成 |
 
+**四种配置的公式。** 设 $N=256^2$， $\bar B_i$ 为归一化后的 Beam 值， $g_i$ 为按训练集梯度尺度归一化并截断至 $[0,1]$ 的梯度幅值。两种锚点分布及尺度权重分别为
+
+$$
+q_i^{\mathrm U}=\frac1N,\qquad
+q_i^{\mathrm B}=0.8\frac{\exp(\bar B_i+g_i)}
+{\sum_j\exp(\bar B_j+g_j)}+\frac{0.2}{N},
+$$
+
+$$
+\pi^{\mathrm F}_{\ell i}=\frac13,\qquad
+\pi^{\mathrm L}_{\ell i}
+=0.95\,\operatorname{softmax}_{\ell}(h_\phi([\bar B,g])_i)+\frac{0.05}{3},
+\quad \ell\in\{2,8,32\}.
+$$
+
+表中的“均匀 / 固定、Beam / 固定、均匀 / 可学习、Beam / 可学习”依次对应 $(q^{\mathrm U},\pi^{\mathrm F})$、 $(q^{\mathrm B},\pi^{\mathrm F})$、 $(q^{\mathrm U},\pi^{\mathrm L})$、 $(q^{\mathrm B},\pi^{\mathrm L})$。两种 $q$ 均为固定规则；可学习的是 $h_\phi$ 的尺度权重网络。有限锚点与三尺度随机场的合成见[四种配置的详细公式](docs/beam_matern_method.md#四种配置的公式)。
+
 图中输入、场及结果为示意；Tx 通道实际是单点位置标记。两个可学习尺度变体都使用 Beam 来计算尺度权重。图仅概览主路径，省略的方差归一化与数学定义见[详细方法和公式](docs/beam_matern_method.md)。
 
 这里的锚点只用于**生成模型内部的随机场**，不采集新的无线电标签。更准确的名称为 Beam-conditioned noise-anchor sampling，而不是主动测量或主动学习。原始 A 没有有限锚点采样，不能把它与“均匀 / 固定”视为完全相同的源。
@@ -44,6 +61,16 @@
 ## A 方案的 Beam 配置响应
 
 为检查 A 如何响应新的 Beam，固定同一场景、Tx、建筑高度和初始噪声，分别生成两种配置下的无线电图，再比较预测变化与真实变化。该诊断使用原始 A 的两个独立训练种子和 160 个未见测试场景；每个场景使用 4 次配对噪声抽样，不输入辅助 Radio Map。
+
+对同场景的一对配置，在两张真实图共同有效的区域 $\mathcal M$ 上记 $\Delta Y=Y_2-Y_1$、 $\Delta\hat Y=\hat Y_2-\hat Y_1$、 $\Delta B=B_2-B_1$，则三种响应误差为
+
+$$
+E_{\mathrm A}=\operatorname{mean}_{\mathcal M}|\Delta\hat Y-\Delta Y|,\qquad
+E_{0}=\operatorname{mean}_{\mathcal M}|\Delta Y|,\qquad
+E_{\mathrm B}=\operatorname{mean}_{\mathcal M}|\Delta B-\Delta Y|.
+$$
+
+其中 $B$ 使用与模型输入一致的裁剪，数值均以 dB 差表示。误差只在预测完成后使用真实图计算；完整的有效掩码、变化幅度、相关性和场景汇总公式见[配置响应公式](docs/beam_response_diagnostic.md#响应指标的公式与汇总)。
 
 ![Beam 配置响应结果](assets/beam_response_summary.png)
 

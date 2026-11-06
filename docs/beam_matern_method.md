@@ -6,6 +6,63 @@
 
 图中绿色连线表示 Beam 可用于生成锚点概率或尺度权重：只有 `beam_*` 使用 Beam 构造锚点概率，两个 `*_learned` 均使用 Beam 构造尺度权重，包括 `uniform_learned`。图中省略了引导场的逐点条件方差归一化和训练损失，具体以以下公式及源码为准。图示傅里叶特征不是电磁波的实测物理相位。
 
+## 四种配置的公式
+
+四组共享同一个源构造，分别选择锚点分布 $q$ 和尺度权重 $\pi$。以下符号中的尺度 $\ell\in\{2,8,32\}$ 均以 $256\times256$ 网络网格的像素计。设 $N=256^2$，原始 Beam 经裁剪、归一化和插值得到 $\bar B$；其梯度幅值经训练集尺度 $s_{95}=0.02020273543894291$ 归一化：
+
+$$
+g_i=\operatorname{clip}\!\left(
+\frac{\|\nabla\bar B_i\|}{s_{95}},0,1\right),\qquad
+q_i^{\mathrm U}=\frac1N.
+$$
+
+Beam 引导分布、固定尺度权重和可学习尺度权重分别为
+
+$$
+q_i^{\mathrm B}
+=0.8\frac{\exp(\bar B_i+g_i)}
+{\sum_{j=1}^{N}\exp(\bar B_j+g_j)}
++\frac{0.2}{N},
+$$
+
+$$
+\pi_{\ell i}^{\mathrm F}=\frac13,\qquad
+\pi_{\ell i}^{\mathrm L}
+=0.95\,\operatorname{softmax}_{\ell}
+\!\left(h_\phi([\bar B,g])_i\right)+\frac{0.05}{3}.
+$$
+
+$h_\phi$ 对每个位置输出三个尺度的 logits；可学习尺度组才更新其参数。四种配置具体是：
+
+| 配置 | 锚点概率 $q_i$ | 尺度权重 $\pi_{\ell i}$ |
+|---|---|---|
+| 均匀 / 固定 | $q_i^{\mathrm U}=1/N$ | $\pi_{\ell i}^{\mathrm F}=1/3$ |
+| Beam / 固定 | $q_i^{\mathrm B}$ | $\pi_{\ell i}^{\mathrm F}=1/3$ |
+| 均匀 / 可学习 | $q_i^{\mathrm U}=1/N$ | $\pi_{\ell i}^{\mathrm L}$ |
+| Beam / 可学习 | $q_i^{\mathrm B}$ | $\pi_{\ell i}^{\mathrm L}$ |
+
+给定表中选定的 $q$，有放回抽取 $K=4096$ 个内部锚点，记每个位置被抽中的次数为 $n_i$。四组采用同一公式将锚点与尺度权重转成源场：
+
+$$
+(n_1,\ldots,n_N)\sim\operatorname{Multinomial}(K;q_1,\ldots,q_N),
+\qquad
+\rho_i=0.5+0.5\frac{Nn_i}{K},
+$$
+
+$$
+z_\ell=G_\ell(\sqrt{\rho}\,\epsilon_\ell),\quad
+D_\ell(i)=\operatorname{Var}[z_\ell(i)\mid\rho],\quad
+z_{\mathrm g}(i)=
+\frac{\sum_\ell\sqrt{\pi_{\ell i}}z_\ell(i)}
+{\sqrt{\sum_\ell\pi_{\ell i}D_\ell(i)}},
+$$
+
+$$
+x_0(i)=\sqrt{0.75}\,z_{\mathrm{MS}}(i)+0.5\,z_{\mathrm g}(i).
+$$
+
+这里 $G_\ell$ 是第 $\ell$ 个 Matérn 滤波器， $\epsilon_\ell$ 是各尺度独立白噪声， $D_\ell$ 是滤波后按锚点条件计算的逐点方差； $z_{\mathrm{MS}}$ 是与引导分支独立的三尺度基础场。实现对方差分母使用数值下界，并对扩展区域做边界处理。 $q$ 的规则固定且锚点抽样不反向传播；可学习尺度权重通过源场和训练损失更新。四组分别训练，不共享已训练参数。
+
 ## 1. 任务与共享速度网络
 
 训练样本由目标无线电图 $y$、发射位置图 $T$、建筑高度 $H$、目标 Beam Map $B$ 构成。推理只使用 $T,H,B$ 和内部采样噪声，不读取目标或辅助 Radio Map。条件张量为
@@ -26,7 +83,7 @@ $$
 
 ## 2. 多尺度 Matérn 基线
 
-代码使用平滑度 $\nu=1$ 的相关高斯随机场，三个相关尺度分别为 $\ell\in\{2,8,32\}$，单位是**网络输入网格像素**。单尺度核满足 $C_\ell(r)=(r/\ell)K_1(r/\ell)$，$C_\ell(0)=1$。在保持独立随机流时，A 的初始场可写为
+代码使用平滑度 $\nu=1$ 的相关高斯随机场，三个相关尺度分别为 $\ell\in\{2,8,32\}$，单位是**网络输入网格像素**。单尺度核满足 $C_\ell(r)=(r/\ell)K_1(r/\ell)$， $C_\ell(0)=1$。在保持独立随机流时，A 的初始场可写为
 
 $$
 z_{\mathrm{MS}}\sim\mathcal{GP}\!\left(0,\frac{C_2+C_8+C_{32}}{3}\right),\quad
@@ -37,7 +94,7 @@ $$
 
 ## 3. 从 Beam 到有限噪声锚点
 
-记 $N=256^2$，$\bar B_i$ 为归一化 Beam，$g_i$ 为梯度幅值除以训练集梯度尺度后截断到 $[0,1]$。固定规则取 $\alpha=\beta=\tau=1$、$\eta=0.2$：
+记 $N=256^2$， $\bar B_i$ 为归一化 Beam， $g_i$ 为梯度幅值除以训练集梯度尺度后截断到 $[0,1]$。固定规则取 $\alpha=\beta=\tau=1$、 $\eta=0.2$：
 
 $$
 q_i^{\mathrm{beam}}=0.8\,\frac{\exp(\bar B_i+g_i)}{\sum_j\exp(\bar B_j+g_j)}+\frac{0.2}{N},
@@ -50,7 +107,7 @@ $$
 \rho_i=(1-\lambda)+\lambda\frac{N n_i}{K},\qquad \lambda=0.5.
 $$
 
-对每个尺度用独立白噪声 $\epsilon_\ell$，经 Matérn 滤波算子 $G_\ell$ 得到 $z_\ell=G_\ell(\sqrt\rho\,\epsilon_\ell)$；其条件逐点方差记为 $D_\ell$，由 $\rho$ 与滤波核平方的卷积计算。**$q$ 的规则和参数在四组中均固定，离散抽样不反传训练 $q$**。实际实现包括边界扩展和条件方差归一化，见 [`anchor_source.py`](../ac/anchor_source.py) 与 [`beam_matern_source.py`](../ac/beam_matern_source.py)。
+对每个尺度用独立白噪声 $\epsilon_\ell$，经 Matérn 滤波算子 $G_\ell$ 得到 $z_\ell=G_\ell(\sqrt\rho\,\epsilon_\ell)$；其条件逐点方差记为 $D_\ell$，由 $\rho$ 与滤波核平方的卷积计算。** $q$ 的规则和参数在四组中均固定，离散抽样不反传训练 $q$**。实际实现包括边界扩展和条件方差归一化，见 [`anchor_source.py`](../ac/anchor_source.py) 与 [`beam_matern_source.py`](../ac/beam_matern_source.py)。
 
 ## 4. 固定与可学习尺度权重
 
@@ -78,7 +135,7 @@ $$
 
 ## 5. Flow matching 与求解
 
-训练使用直线路径 $x_t=(1-t)x_0+ty$，目标速度为 $y-x_0$，$t\sim U[0,1]$。损失由有效像素上的 flow matching 项与两级 Haar 细节项组成：
+训练使用直线路径 $x_t=(1-t)x_0+ty$，目标速度为 $y-x_0$， $t\sim U[0,1]$。损失由有效像素上的 flow matching 项与两级 Haar 细节项组成：
 
 $$
 \mathcal L=\mathcal L_{\mathrm{FM}}+0.05\mathcal L_{\mathrm{Haar},1}+0.05\mathcal L_{\mathrm{Haar},2}.

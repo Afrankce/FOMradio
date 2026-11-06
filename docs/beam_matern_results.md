@@ -4,6 +4,31 @@
 
 在不提供辅助 Radio Map、保留 A 的联合条件和 FNO 速度网络的前提下，研究有限噪声锚点的位置分布和多尺度权重是否改变生成结果。原始 A 作为单独参照，四个新变体构成 2 × 2 对照：均匀或 Beam 引导的锚点概率 $q$，以及固定或可学习的尺度权重 $\pi$。详细代码与公式见[方法说明](beam_matern_method.md)。
 
+## 四种配置如何定义
+
+令 $N=256^2$， $\bar B$ 和 $g$ 分别为网络网格上的归一化 Beam 及归一化梯度幅值， $h_\phi$ 为三个尺度的可学习 logits。两种锚点分布和两种尺度权重为
+
+$$
+q_i^{\mathrm U}=\frac1N,\qquad
+q_i^{\mathrm B}=0.8\frac{\exp(\bar B_i+g_i)}
+{\sum_j\exp(\bar B_j+g_j)}+\frac{0.2}{N};
+$$
+
+$$
+\pi_{\ell i}^{\mathrm F}=\frac13,\qquad
+\pi_{\ell i}^{\mathrm L}
+=0.95\,\operatorname{softmax}_{\ell}(h_\phi([\bar B,g])_i)+\frac{0.05}{3}.
+$$
+
+| 实验配置 | $q_i$ | $\pi_{\ell i}$ |
+|---|---|---|
+| 均匀 / 固定 | $q_i^{\mathrm U}$ | $\pi_{\ell i}^{\mathrm F}$ |
+| Beam / 固定 | $q_i^{\mathrm B}$ | $\pi_{\ell i}^{\mathrm F}$ |
+| 均匀 / 可学习 | $q_i^{\mathrm U}$ | $\pi_{\ell i}^{\mathrm L}$ |
+| Beam / 可学习 | $q_i^{\mathrm B}$ | $\pi_{\ell i}^{\mathrm L}$ |
+
+尺度 $\ell$ 为 2、8、32 个网络网格像素。 $q$ 是固定规则，可学习组更新的是 $h_\phi$，不是 $q$。锚点采样、逐点方差归一化与源场合成的完整公式见[方法说明](beam_matern_method.md#四种配置的公式)。
+
 ## 训练、验证与测试配置
 
 U6G 场景按 ID 严格划分为 **560 个训练、80 个验证、160 个测试场景**；原始 ID 见 [`scene_ids_seed42.json`](../splits/scene_ids_seed42.json)。训练与验证都在 6.7 GHz、8×8、−14°/0°/+14° 下进行，共 1680 / 240 个场景—配置查询。五组测试都使用未参与训练和验证的 160 个场景：
